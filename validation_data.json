@@ -1,0 +1,3 @@
+validate_pmv = [  
+  {'inputs': {'tdb': 19.6, 'tr': 19.6, 'rh': 86, 'vr': 0.1, 'met': 1.1, 'clo': 1}, 'outputs': {'pmv': -0.5, 'ppd': 10}},
+]
