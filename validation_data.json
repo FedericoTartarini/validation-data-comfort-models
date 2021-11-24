@@ -1,18 +1,26 @@
 {
-  "validate_pmv": [
-    {
-      "inputs": {
-        "db": 19.6,
-        "tr": 19.6,
-        "rh": 86,
-        "vr": 0.1,
-        "met": 1.1,
-        "clo": 1
-      },
-      "outputs": {
-        "pmv": -0.5,
-        "ppd": 10
-      }
-    }
-  ]
+    "summary": "this file contains a series of validation tables to be used to "
+               "validate "
+               "thermal comfort functions",
+    "version": "1.0.0",
+    "license": "MIT",
+    "reference_data": [
+        {"pmv_ppd": [
+            {"source": "ASHRAE 55 2012"},
+            {"info": "data used to validated the PMV function"},
+            {"data": {
+                "inputs": {
+                    "tdb": 19.6,
+                    "tr": 19.6,
+                    "rh": 86,
+                    "vr": 0.1,
+                    "met": 1.1,
+                    "clo": 1
+                    },
+                "outputs": {
+                    "pmv": -0.5,
+                    "ppd": 10
+                    }
+                }}
+            ]}]
 }
