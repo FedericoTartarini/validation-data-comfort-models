@@ -1,7 +1,5 @@
 {
-    "summary": "this file contains a series of validation tables to be used to "
-               "validate "
-               "thermal comfort functions",
+    "summary": "this file contains a series of validation tables to be used to validate thermal comfort functions",
     "version": "1.0.0",
     "license": "MIT",
     "reference_data": [
