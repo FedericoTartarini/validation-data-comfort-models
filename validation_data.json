@@ -8,10 +8,10 @@
             {"info": "data used to validated the PMV function"},
             {"data": {
                 "inputs": {
-                    "tdb": 19.6,
+                    "ta": 19.6,
                     "tr": 19.6,
                     "rh": 86,
-                    "vr": 0.1,
+                    "v": 0.1,
                     "met": 1.1,
                     "clo": 1
                     },
