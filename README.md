@@ -18,11 +18,16 @@ Data are stored as a JSON file. The JSON schema is describe below:
 summary: string, descibes the data
 version: float, version of the reference documentation
 license: string
-reference_data: [], one object for each function
-- object: {}, contains the reference data for that function
-  - source: string, where the data are from
-  - info: string, more info about when these data should be used
-  - data:
-      inputs: {}, all the inputs needed to calculate the output
-      outputs: {}, outputs to be used to validate the function
+reference_data: {}
+  "function_to_test": [], array containing different reference tables for that model
+```
+
+`function_to_test` constains an array of objects where each object is a reference table. Each object contains the following information:
+
+```yaml
+source: string, source of the reference table
+info: string, information about the dataset and its use
+data: [], array
+  inputs: {}, contains the model inputs
+  outputs: {}, contains the validation data
 ```
