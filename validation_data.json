@@ -2,23 +2,356 @@
     "summary": "this file contains a series of validation tables to be used to validate thermal comfort functions",
     "version": "1.0.0",
     "license": "MIT",
-    "reference_data": [
-        {"pmv_ppd": [
-            {"source": "ASHRAE 55 2012"},
-            {"info": "data used to validated the PMV function"},
-            {"data": {
-                "inputs": {
-                    "ta": 19.6,
-                    "tr": 19.6,
-                    "rh": 86,
-                    "v": 0.1,
-                    "met": 1.1,
-                    "clo": 1
+    "reference_data": {
+        "pmv_ppd": [
+            {
+                "source": "ISO 7730 2005",
+                "info": "data used to validated the PMV function",
+                "data": [
+                    {
+                        "inputs": {
+                            "ta": 22,
+                            "tr": 22,
+                            "rh": 60,
+                            "v": 0.1,
+                            "met": 1.2,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": -0.75,
+                            "ppd": 17
+                        }
                     },
-                "outputs": {
-                    "pmv": -0.5,
-                    "ppd": 10
+                    {
+                        "inputs": {
+                            "ta": 27,
+                            "tr": 27,
+                            "rh": 60,
+                            "v": 0.1,
+                            "met": 1.2,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": 0.77,
+                            "ppd": 17
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 27,
+                            "tr": 27,
+                            "rh": 60,
+                            "v": 0.3,
+                            "met": 1.2,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": 0.44,
+                            "ppd": 9
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 23.5,
+                            "tr": 25.5,
+                            "rh": 60,
+                            "v": 0.1,
+                            "met": 1.2,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": -0.01,
+                            "ppd": 5
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 23.5,
+                            "tr": 25.5,
+                            "rh": 60,
+                            "v": 0.3,
+                            "met": 1.2,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": -0.55,
+                            "ppd": 11
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 19,
+                            "tr": 19,
+                            "rh": 40,
+                            "v": 0.1,
+                            "met": 1.2,
+                            "clo": 1.0
+                        },
+                        "outputs": {
+                            "pmv": -0.6,
+                            "ppd": 13
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 23.5,
+                            "tr": 23.5,
+                            "rh": 40,
+                            "v": 0.3,
+                            "met": 1.2,
+                            "clo": 1.0
+                        },
+                        "outputs": {
+                            "pmv": 0.12,
+                            "ppd": 5
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 23.0,
+                            "tr": 21.0,
+                            "rh": 40,
+                            "v": 0.1,
+                            "met": 1.2,
+                            "clo": 1.0
+                        },
+                        "outputs": {
+                            "pmv": 0.05,
+                            "ppd": 5
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 23.0,
+                            "tr": 21.0,
+                            "rh": 40,
+                            "v": 0.3,
+                            "met": 1.2,
+                            "clo": 1.0
+                        },
+                        "outputs": {
+                            "pmv": -0.16,
+                            "ppd": 6
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 22.0,
+                            "tr": 22.0,
+                            "rh": 60,
+                            "v": 0.1,
+                            "met": 1.6,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": 0.05,
+                            "ppd": 5
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 27.0,
+                            "tr": 27.0,
+                            "rh": 60,
+                            "v": 0.1,
+                            "met": 1.6,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": 1.17,
+                            "ppd": 34
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 27.0,
+                            "tr": 27.0,
+                            "rh": 60,
+                            "v": 0.3,
+                            "met": 1.6,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": 0.95,
+                            "ppd": 24
+                        }
                     }
-                }}
-            ]}]
+                ]
+            },
+            {
+                "source": "ASHRAE 55 2017",
+                "info": "data used to validated the PMV function",
+                "data": [
+                    {
+                        "inputs": {
+                            "ta": 22,
+                            "tr": 22,
+                            "rh": 60,
+                            "v": 0.1,
+                            "met": 1.2,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": -0.75,
+                            "ppd": 17
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 27,
+                            "tr": 27,
+                            "rh": 60,
+                            "v": 0.1,
+                            "met": 1.2,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": 0.77,
+                            "ppd": 17
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 27,
+                            "tr": 27,
+                            "rh": 60,
+                            "v": 0.3,
+                            "met": 1.2,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": 0.44,
+                            "ppd": 9
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 23.5,
+                            "tr": 25.5,
+                            "rh": 60,
+                            "v": 0.1,
+                            "met": 1.2,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": -0.01,
+                            "ppd": 5
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 23.5,
+                            "tr": 25.5,
+                            "rh": 60,
+                            "v": 0.3,
+                            "met": 1.2,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": -0.55,
+                            "ppd": 11
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 19,
+                            "tr": 19,
+                            "rh": 40,
+                            "v": 0.1,
+                            "met": 1.2,
+                            "clo": 1.0
+                        },
+                        "outputs": {
+                            "pmv": -0.6,
+                            "ppd": 13
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 23.5,
+                            "tr": 23.5,
+                            "rh": 40,
+                            "v": 0.3,
+                            "met": 1.2,
+                            "clo": 1.0
+                        },
+                        "outputs": {
+                            "pmv": 0.12,
+                            "ppd": 5
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 23.0,
+                            "tr": 21.0,
+                            "rh": 40,
+                            "v": 0.1,
+                            "met": 1.2,
+                            "clo": 1.0
+                        },
+                        "outputs": {
+                            "pmv": 0.05,
+                            "ppd": 5
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 23.0,
+                            "tr": 21.0,
+                            "rh": 40,
+                            "v": 0.3,
+                            "met": 1.2,
+                            "clo": 1.0
+                        },
+                        "outputs": {
+                            "pmv": -0.16,
+                            "ppd": 6
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 22.0,
+                            "tr": 22.0,
+                            "rh": 60,
+                            "v": 0.1,
+                            "met": 1.6,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": 0.05,
+                            "ppd": 5
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 27.0,
+                            "tr": 27.0,
+                            "rh": 60,
+                            "v": 0.1,
+                            "met": 1.6,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": 1.17,
+                            "ppd": 34
+                        }
+                    },
+                    {
+                        "inputs": {
+                            "ta": 27.0,
+                            "tr": 27.0,
+                            "rh": 60,
+                            "v": 0.3,
+                            "met": 1.6,
+                            "clo": 0.5
+                        },
+                        "outputs": {
+                            "pmv": 0.95,
+                            "ppd": 24
+                        }
+                    }
+                ]
+            }
+        ]
+    }
 }
