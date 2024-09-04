@@ -1,8 +1,8 @@
 {
   "function": "pmv_pdd",
   "toleramnce": {
-    "pmv": -0.8,
-    "ppd": 16.9
+    "pmv": 0.1,
+    "ppd": 0.01
   } ,
   "data": [
     {
