@@ -1,0 +1,50 @@
+{
+  "information": {
+    "summary": "This file contains validation data for the vertical_tmp_grad_ppd() function in pythermalcomfort",
+    "version": "1.1.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "PPD_vg": 0.1
+  },
+  "data": [
+    {
+      "source": "test_vertical_tmp_grad_ppd",
+      "tdb": 77,
+      "tr": 77,
+      "v": 0.328,
+      "rh": 50,
+      "met": 1.2,
+      "clo": 0.5,
+      "delta_t": 3.889,
+      "units": "ip",
+      "PPD_vg": 13.0,
+      "Acceptability": false
+    },
+    {
+      "source": "test_vertical_tmp_grad_ppd",
+      "tdb": 25,
+      "tr": 25,
+      "v": 0.1,
+      "rh": 50,
+      "met": 1.2,
+      "clo": 0.5,
+      "delta_t": 7,
+      "units": "SI",
+      "PPD_vg": 12.6
+    },
+    {
+      "source": "test_vertical_tmp_grad_ppd",
+      "tdb": 25,
+      "tr": 25,
+      "v": 0.1,
+      "rh": 50,
+      "met": 1.2,
+      "clo": 0.5,
+      "delta_t": 4,
+      "units": "SI",
+      "PPD_vg": 1.7,
+      "Acceptability": true
+    }
+  ]
+}
