@@ -1,6 +1,6 @@
 {
   "information": {
-    "summary": "This file contains a series of validation tables for pmvpdd() in pythermalcomfort, jsthermalcomfort, calcPMVPDD() in R",
+    "summary": "This file contains a series of validation tables for adaptive_en() in pythermalcomfort, jsthermalcomfort, calcAdaptiveEn() in R",
     "version": "1.0.0",
     "license": "MIT"
   },
