@@ -1,0 +1,60 @@
+{
+  "information": {
+    "summary": "This file contains validation data for the ankle_draft() function in pythermalcomfort",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "PPD_ad": 0.1
+  },
+  "data": [
+    {
+      "source": "test_ankle_draft",
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "v": 0.2,
+        "rh": 50,
+        "met": 1.2,
+        "clo": 0.5,
+        "v_ankle": 0.3,
+        "units": "SI"
+      },
+      "outputs": {
+        "PPD_ad": 18.5
+      }
+    },
+    {
+      "source": "test_ankle_draft",
+      "inputs": {
+        "tdb": 77,
+        "tr": 77,
+        "v": 0.656,
+        "rh": 50,
+        "met": 1.2,
+        "clo": 0.5,
+        "v_ankle": 1.312,
+        "units": "IP"
+      },
+      "outputs": {
+        "PPD_ad": 23.5
+      }
+    },
+    {
+      "source": "test_ankle_draft_error",
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "v": 0.3,
+        "rh": 50,
+        "met": 1.2,
+        "clo": 0.5,
+        "v_ankle": 7,
+        "units": "SI"
+      },
+      "outputs": {
+        "error": "ValueError"
+      }
+    }
+  ]
+}
