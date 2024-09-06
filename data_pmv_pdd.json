@@ -1,6 +1,6 @@
-// "summary": "this file contains a series of validation tables for pmvpdd, pmv in pythermalcomfort, comf, jsthermalcomfort",
-// "version": "1.0.0",
-// "license": "MIT",
+## "summary": "this file contains a series of validation tables for pmvpdd, pmv in pythermalcomfort, comf, jsthermalcomfort",
+## "version": "1.0.0",
+## "license": "MIT",
 {
   "tolerance": {
     "pmv": 0.1,
