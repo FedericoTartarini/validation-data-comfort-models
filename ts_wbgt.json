@@ -1,0 +1,90 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for wbgt() in pythermalcomfort, jsthermalcomfort, calcWbgt() in R",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {},
+  "data": [
+    {
+      "source": "",
+      "inputs": {
+        "twb": 25,
+        "tg": 32,
+        "tdb": 20,
+        "with_solar_load": true
+      },
+      "outputs": 25.9
+    },
+    {
+      "source": "",
+      "inputs": {
+        "twb": 17.3,
+        "tg": 40,
+        "round": true
+      },
+      "outputs": 24.1
+    },
+    {
+      "source": "",
+      "inputs": {
+        "twb": 21.1,
+        "tg": 55,
+        "round": true
+      },
+      "outputs": 31.3
+    },
+    {
+      "source": "",
+      "inputs": {
+        "twb": 16.7,
+        "tg": 40,
+        "round": true
+      },
+      "outputs": 23.7
+    },
+    {
+      "source": "",
+      "inputs": {
+        "twb": 25,
+        "tg": 30
+      },
+      "outputs": 26.5
+    },
+    {
+      "source": "",
+      "inputs": {
+        "twb": 25,
+        "tg": 30,
+        "tdb": 20
+      },
+      "outputs": 26.5
+    },
+    {
+      "source": "",
+      "inputs": {
+        "twb": 25,
+        "tg": 30,
+        "round": false
+      },
+      "outputs": 26.5
+    },
+    {
+      "source": "",
+      "inputs": {
+        "twb": 0,
+        "tg": 0
+      },
+      "outputs": 0.0
+    },
+    {
+      "source": "",
+      "inputs": {
+        "twb": 25,
+        "tg": 30,
+        "tdb": 0
+      },
+      "outputs": 26.5
+    }
+  ]
+}
