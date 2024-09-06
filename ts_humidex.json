@@ -1,0 +1,63 @@
+{
+  "information": {
+    "summary": "This file contains validation data for the humidex() function in pythermalcomfort",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "humidex": 0.1
+  },
+  "data": [
+    {
+      "source": "test_calculate_humidex",
+      "tdb": 25,
+      "rh": 50,
+      "humidex": 28.2,
+      "discomfort": "Little or no discomfort"
+    },
+    {
+      "source": "test_humidex_evident_discomfort",
+      "tdb": 10,
+      "rh": 50,
+      "discomfort": "Little or no discomfort"
+    },
+    {
+      "source": "test_humidex_evident_discomfort",
+      "tdb": 28,
+      "rh": 50,
+      "discomfort": "Noticeable discomfort"
+    },
+    {
+      "source": "test_humidex_evident_discomfort",
+      "tdb": 30,
+      "rh": 50,
+      "discomfort": "Evident discomfort"
+    },
+    {
+      "source": "test_humidex_evident_discomfort",
+      "tdb": 35,
+      "rh": 50,
+      "discomfort": "Intense discomfort; avoid exertion"
+    },
+    {
+      "source": "test_humidex_evident_discomfort",
+      "tdb": 40,
+      "rh": 50,
+      "discomfort": "Heat stroke probable"
+    },
+    {
+      "source": "test_humidex",
+      "tdb": 30,
+      "rh": 80,
+      "humidex": 43.3,
+      "discomfort": "Intense discomfort; avoid exertion"
+    },
+    {
+      "source": "test_humidex",
+      "tdb": 31.6,
+      "rh": 57.1,
+      "humidex": 40.8,
+      "discomfort": "Intense discomfort; avoid exertion"
+    }
+  ]
+}
