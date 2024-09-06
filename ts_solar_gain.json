@@ -1,0 +1,470 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for solar_gain() in pythermalcomfort, jsthermalcomfort, calcSolarGain() in R",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+  },
+  "data": [
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 45,
+        "sharp": 0,
+        "I_dir": 700,
+        "t_sol": 0.8,
+        "f_svv": 0.2,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 64.9,
+        "t_rsw": 15.5
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 0,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 43.3,
+        "t_rsw": 10.4
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 60,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 63.2,
+        "t_rsw": 15.1
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 90,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 65.3,
+        "t_rsw": 15.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 0,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 63.1,
+        "t_rsw": 15.1
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 30,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 62.4,
+        "t_rsw": 14.9
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 60,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 60.5,
+        "t_rsw": 14.5
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 90,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 57.2,
+        "t_rsw": 13.7
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 150,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 51.7,
+        "t_rsw": 12.4
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 180,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 49.0,
+        "t_rsw": 11.7
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Standing"
+      },
+      "outputs": {
+        "erf": 59.3,
+        "t_rsw": 13.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 400,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 27.4,
+        "t_rsw": 6.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 600,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 41.1,
+        "t_rsw": 9.8
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 1000,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 68.5,
+        "t_rsw": 16.4
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.1,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 11.0,
+        "t_rsw": 2.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.3,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 32.9,
+        "t_rsw": 7.9
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.7,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 76.7,
+        "t_rsw": 18.4
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.1,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 29.3,
+        "t_rsw": 7.0
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.3,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 42.1,
+        "t_rsw": 10.1
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.7,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 67.5,
+        "t_rsw": 16.2
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.1,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 36.4,
+        "t_rsw": 8.7
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.3,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 45.6,
+        "t_rsw": 10.9
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.7,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 64.0,
+        "t_rsw": 15.3
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.3,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 23.5,
+        "t_rsw": 5.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.5,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 39.1,
+        "t_rsw": 9.4
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.9,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 70.4,
+        "t_rsw": 16.9
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "alt": 30,
+        "sharp": 120,
+        "I_dir": 800,
+        "t_sol": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asa": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 54.8,
+        "t_rsw": 13.1
+      }
+    }
+  ]
+}
