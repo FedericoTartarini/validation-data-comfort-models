@@ -5,6 +5,8 @@
     "license": "MIT"
   },
   "tolerance": {
+    "erf": 0.1,
+    "delta_mrt": 0.1
   },
   "data": [
     {
