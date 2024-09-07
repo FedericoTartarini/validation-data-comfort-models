@@ -1,0 +1,39 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for discomfort_index() in pythermalcomfort, jsthermalcomfort, calcDisc() in R",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {},
+  "data": [
+    {
+        "inputs": {
+            "temperature": [21, 23.5, 29, 32, 35, 40],
+            "humidity": 50
+        },
+        "outputs": {
+            "di": [19.2, 21.0, 25.0, 27.2, 29.4, 33.0],
+            "discomfort_condition": [
+                "No discomfort",
+                "Less than 50% feels discomfort",
+                "More than 50% feels discomfort",
+                "Most of the population feels discomfort",
+                "Everyone feels severe stress",
+                "State of medical emergency"
+            ]
+        }
+    },
+    {
+        "inputs": {
+            "temperature": [35, 35],
+            "humidity": [10, 90]
+        },
+        "outputs": {
+            "di": [24.9, 33.9],
+            "discomfort_condition": [
+                "More than 50% feels discomfort",
+                "State of medical emergency"
+            ]
+        }
+    }
+]
