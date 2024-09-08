@@ -7,7 +7,8 @@
   "tolerance": {},
   "data": [
     {
-        "inputs": {
+      "source":"test_discomfort_index",  
+      "inputs": {
             "temperature": [21, 23.5, 29, 32, 35, 40],
             "humidity": 50
         },
