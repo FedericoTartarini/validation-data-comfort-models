@@ -25,6 +25,7 @@
         }
     },
     {
+        "source":"test_discomfort_index", 
         "inputs": {
             "temperature": [35, 35],
             "humidity": [10, 90]
