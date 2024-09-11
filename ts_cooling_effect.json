@@ -5,7 +5,6 @@
     "license": "MIT"
   },
   "tolerance": {
-    "default_tolerance": 0.1
   },
   "data": [
     {
