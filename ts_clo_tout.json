@@ -1,0 +1,70 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for clo_tout() function in pythermalcomfort",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+  },
+  "data": [
+    {
+      "source": "",
+      "inputs": {
+        "tout": 27
+      },
+      "outputs": 0.46
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tout": [27, 25]
+      },
+      "outputs": [0.46, 0.47]
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tout": 80.6,
+        "units": "IP"
+      },
+      "outputs": 0.46
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tout": [80.6, 77],
+        "units": "IP"
+      },
+      "outputs": [0.46, 0.47]
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tout": [4, 2, 0]
+      },
+      "outputs": [0.67, 0.75, 0.82]
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tout": [-4, -6]
+      },
+      "outputs": [0.96, 1.0]
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tout": 27,
+        "units": "invalid"
+      },
+      "error": "ValueError"
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tout": "invalid"
+      },
+      "error": "TypeError"
+    }
+  ]
+}
