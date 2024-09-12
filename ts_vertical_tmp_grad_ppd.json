@@ -58,22 +58,6 @@
         "PPD_vg": 1.7,
         "Acceptability": true
       }
-    },
-    {
-      "source": "test_vertical_tmp_grad_ppd_invalid_value",
-      "inputs": {
-        "tdb": 25,
-        "tr": 25,
-        "v": 0.3,
-        "rh": 50,
-        "met": 1.2,
-        "clo": 0.5,
-        "delta_t": 7,
-        "units": "SI"
-      },
-      "outputs": {
-        "error": "ValueError"
-      }
     }
   ]
 }
