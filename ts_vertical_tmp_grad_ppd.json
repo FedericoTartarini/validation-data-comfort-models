@@ -10,41 +10,69 @@
   "data": [
     {
       "source": "test_vertical_tmp_grad_ppd",
-      "tdb": 77,
-      "tr": 77,
-      "v": 0.328,
-      "rh": 50,
-      "met": 1.2,
-      "clo": 0.5,
-      "delta_t": 3.889,
-      "units": "ip",
-      "PPD_vg": 13.0,
-      "Acceptability": false
+      "inputs": {
+        "tdb": 77,
+        "tr": 77,
+        "v": 0.328,
+        "rh": 50,
+        "met": 1.2,
+        "clo": 0.5,
+        "delta_t": 3.889,
+        "units": "ip"
+      },
+      "outputs": {
+        "PPD_vg": 13.0,
+        "Acceptability": false
+      }
     },
     {
       "source": "test_vertical_tmp_grad_ppd",
-      "tdb": 25,
-      "tr": 25,
-      "v": 0.1,
-      "rh": 50,
-      "met": 1.2,
-      "clo": 0.5,
-      "delta_t": 7,
-      "units": "SI",
-      "PPD_vg": 12.6
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "v": 0.1,
+        "rh": 50,
+        "met": 1.2,
+        "clo": 0.5,
+        "delta_t": 7,
+        "units": "SI"
+      },
+      "outputs": {
+        "PPD_vg": 12.6,
+        "Acceptability": false
+      }
     },
     {
       "source": "test_vertical_tmp_grad_ppd",
-      "tdb": 25,
-      "tr": 25,
-      "v": 0.1,
-      "rh": 50,
-      "met": 1.2,
-      "clo": 0.5,
-      "delta_t": 4,
-      "units": "SI",
-      "PPD_vg": 1.7,
-      "Acceptability": true
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "v": 0.1,
+        "rh": 50,
+        "met": 1.2,
+        "clo": 0.5,
+        "delta_t": 4,
+        "units": "SI"
+      },
+      "outputs": {
+        "PPD_vg": 1.7,
+        "Acceptability": true
+      }
+    },
+    {
+      "source": "test_vertical_tmp_grad_ppd_invalid_value",
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "v": 0.3,
+        "rh": 50,
+        "met": 1.2,
+        "clo": 0.5,
+        "delta_t": 7
+      },
+      "outputs": {
+        "error": "ValueError"
+      }
     }
   ]
 }
