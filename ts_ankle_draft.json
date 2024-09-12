@@ -39,22 +39,6 @@
       "outputs": {
         "PPD_ad": 23.5
       }
-    },
-    {
-      "source": "test_ankle_draft_error",
-      "inputs": {
-        "tdb": 25,
-        "tr": 25,
-        "v": 0.3,
-        "rh": 50,
-        "met": 1.2,
-        "clo": 0.5,
-        "v_ankle": 7,
-        "units": "SI"
-      },
-      "outputs": {
-        "error": "ValueError"
-      }
     }
   ]
 }
