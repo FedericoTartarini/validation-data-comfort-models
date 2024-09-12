@@ -10,54 +10,127 @@
   "data": [
     {
       "source": "test_calculate_humidex",
-      "tdb": 25,
-      "rh": 50,
-      "humidex": 28.2,
-      "discomfort": "Little or no discomfort"
+      "inputs": {
+        "tdb": 25,
+        "rh": 50
+      },
+      "outputs": {
+        "humidex": 28.2,
+        "discomfort": "Little or no discomfort"
+      }
+    },
+    {
+      "source": "test_return_humidex_and_discomfort",
+      "inputs": {
+        "tdb": 25,
+        "rh": 50
+      },
+      "outputs": {
+        "humidex": 28.2,
+        "discomfort": "Little or no discomfort"
+      }
+    },
+    {
+      "source": "test_round_output_humidex",
+      "inputs": {
+        "tdb": 25,
+        "rh": 50,
+        "round": true
+      },
+      "outputs": {
+        "humidex": 28,
+        "discomfort": "Little or no discomfort"
+      }
+    },
+    {
+      "source": "test_input_temperature_not_float",
+      "inputs": {
+        "tdb": "25",
+        "rh": 50
+      },
+      "outputs": {
+        "error": "TypeError"
+      }
+    },
+    {
+      "source": "test_input_humidity_not_float",
+      "inputs": {
+        "tdb": 25,
+        "rh": "50"
+      },
+      "outputs": {
+        "error": "TypeError"
+      }
     },
     {
       "source": "test_humidex_evident_discomfort",
-      "tdb": 10,
-      "rh": 50,
-      "discomfort": "Little or no discomfort"
+      "inputs": [
+        {"tdb": 10, "rh": 50},
+        {"tdb": 28, "rh": 50},
+        {"tdb": 30, "rh": 50},
+        {"tdb": 35, "rh": 50},
+        {"tdb": 40, "rh": 50}
+      ],
+      "outputs": [
+        {"discomfort": "Little or no discomfort"},
+        {"discomfort": "Noticeable discomfort"},
+        {"discomfort": "Evident discomfort"},
+        {"discomfort": "Intense discomfort; avoid exertion"},
+        {"discomfort": "Heat stroke probable"}
+      ]
     },
     {
-      "source": "test_humidex_evident_discomfort",
-      "tdb": 28,
-      "rh": 50,
-      "discomfort": "Noticeable discomfort"
+      "source": "test_humidex_invalid_rh",
+      "inputs": {
+        "tdb": 25,
+        "rh": 110
+      },
+      "outputs": {
+        "error": "ValueError"
+      }
     },
     {
-      "source": "test_humidex_evident_discomfort",
-      "tdb": 30,
-      "rh": 50,
-      "discomfort": "Evident discomfort"
+      "source": "test_input_relative_humidity_less_than_zero",
+      "inputs": {
+        "tdb": 25,
+        "rh": -10
+      },
+      "outputs": {
+        "error": "ValueError"
+      }
     },
     {
-      "source": "test_humidex_evident_discomfort",
-      "tdb": 35,
-      "rh": 50,
-      "discomfort": "Intense discomfort; avoid exertion"
+      "source": "test_humidex_discomfort_30",
+      "inputs": {
+        "tdb": 25,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Little or no discomfort"
+      }
     },
     {
-      "source": "test_humidex_evident_discomfort",
-      "tdb": 40,
-      "rh": 50,
-      "discomfort": "Heat stroke probable"
+      "source": "test_humidex_dangerous_discomfort",
+      "inputs": {
+        "tdb": 30,
+        "rh": 100
+      },
+      "outputs": {
+        "discomfort": "Dangerous discomfort"
+      }
     },
     {
       "source": "test_humidex",
-      "tdb": 30,
-      "rh": 80,
-      "humidex": 43.3,
-      "discomfort": "Intense discomfort; avoid exertion"
-    },
-    {
-      "source": "test_humidex",
-      "tdb": 31.6,
-      "rh": 57.1,
-      "humidex": 40.8,
-      "discomfort": "Intense discomfort; avoid exertion"
+      "inputs": [
+        {"tdb": 25, "rh": 50},
+        {"tdb": 30, "rh": 80},
+        {"tdb": 31.6, "rh": 57.1}
+      ],
+      "outputs": [
+        {"humidex": 28.2, "discomfort": "Little or no discomfort"},
+        {"humidex": 43.3, "discomfort": "Intense discomfort; avoid exertion"},
+        {"humidex": 40.8, "discomfort": "Intense discomfort; avoid exertion"}
+      ]
     }
   ]
 }
