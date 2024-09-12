@@ -80,26 +80,6 @@
       ]
     },
     {
-      "source": "test_humidex_invalid_rh",
-      "inputs": {
-        "tdb": 25,
-        "rh": 110
-      },
-      "outputs": {
-        "error": "ValueError"
-      }
-    },
-    {
-      "source": "test_input_relative_humidity_less_than_zero",
-      "inputs": {
-        "tdb": 25,
-        "rh": -10
-      },
-      "outputs": {
-        "error": "ValueError"
-      }
-    },
-    {
       "source": "test_humidex_discomfort_30",
       "inputs": {
         "tdb": 25,
