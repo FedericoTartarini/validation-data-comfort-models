@@ -1,0 +1,44 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for the heat_index() function in pythermalcomfort.",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {},
+  "data": [
+    {
+      "source": "",
+      "inputs": {
+        "tdb": 25,
+        "rh": 50,
+      },
+      "outputs": 25.9
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tdb": 77,
+        "rh": 50,
+        "units": "IP"
+      },
+      "outputs": 78.6
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tdb": 30,
+        "rh": 80,
+      },
+      "outputs": 37.7
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tdb": 86,
+        "rh": 80,
+        "units": "IP"
+      },
+      "outputs": 99.8
+    }
+  ]
+}
