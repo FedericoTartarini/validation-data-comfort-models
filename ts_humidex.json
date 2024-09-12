@@ -107,7 +107,7 @@
         {"tdb": 31.6, "rh": 57.1}
       ],
       "outputs": [
-        {"humidex": 28.1, "discomfort": "Little or no discomfort"},
+        {"humidex": 28.2, "discomfort": "Little or no discomfort"},
         {"humidex": 43.3, "discomfort": "Intense discomfort; avoid exertion"},
         {"humidex": 40.8, "discomfort": "Intense discomfort; avoid exertion"}
       ]
