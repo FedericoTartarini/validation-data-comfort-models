@@ -4,8 +4,7 @@
     "version": "1.0.0",
     "license": "MIT"
   },
-  "tolerance": {
-  },
+  "tolerance": 0.1,
   "data": [
     {
       "source": "test_wind_chill.py",
