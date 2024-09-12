@@ -4,9 +4,7 @@
     "version": "1.0.0",
     "license": "MIT"
   },
-  "tolerance": {
-    0.01
-  },
+  "tolerance": 0.01,
   "data": [
     {
       "source": "",
