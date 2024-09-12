@@ -5,6 +5,7 @@
     "license": "MIT"
   },
   "tolerance": {
+    "athb_pmv" : 0.01
   },
   "data": [
     {
