@@ -68,7 +68,8 @@
         "rh": 50,
         "met": 1.2,
         "clo": 0.5,
-        "delta_t": 7
+        "delta_t": 7,
+        "units": "SI"
       },
       "outputs": {
         "error": "ValueError"
