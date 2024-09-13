@@ -145,7 +145,7 @@
         "max_skin_blood_flow": 60
       },
       "outputs": {
-        "e_rsw": 38.2
+        "t_core": 38.2
       }
     }
   ]
