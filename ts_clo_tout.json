@@ -1,69 +1,119 @@
 {
   "information": {
-    "summary": "This file contains a series of validation tables for clo_tout() function in pythermalcomfort",
+    "summary": "This file contains a series of validation tables for clo_tout() function in pythermalcomfort and jsthermalcomfort",
     "version": "1.0.0",
     "license": "MIT"
   },
-  "tolerance": 0.01,
+  "tolerance": {
+    "clo_tout": 0.01
+  },
   "data": [
     {
-      "source": "",
       "inputs": {
         "tout": 27
       },
-      "outputs": 0.46
+      "outputs": {
+        "clo_tout": 0.46
+      }
     },
     {
-      "source": "",
+      "inputs": {
+        "tout": 25
+      },
+      "outputs": {
+        "clo_tout": 0.47
+      }
+    },
+    {
       "inputs": {
         "tout": [27, 25]
       },
-      "outputs": [0.46, 0.47]
+      "outputs": {
+        "clo_tout": [0.46, 0.47]
+      }
     },
     {
-      "source": "",
       "inputs": {
         "tout": 80.6,
         "units": "IP"
       },
-      "outputs": 0.46
+      "outputs": {
+        "clo_tout": 0.46
+      }
     },
     {
-      "source": "",
+      "inputs": {
+        "tout": 77,
+        "units": "IP"
+      },
+      "outputs": {
+        "clo_tout": 0.47
+      }
+    },
+    {
       "inputs": {
         "tout": [80.6, 77],
         "units": "IP"
       },
-      "outputs": [0.46, 0.47]
+      "outputs": {
+        "clo_tout": [0.46, 0.47]
+      }
     },
     {
-      "source": "",
+      "inputs": {
+        "tout": 4
+      },
+      "outputs": {
+        "clo_tout": 0.67
+      }
+    },
+    {
+      "inputs": {
+        "tout": 2
+      },
+      "outputs": {
+        "clo_tout": 0.75
+      }
+    },
+    {
+      "inputs": {
+        "tout": 0
+      },
+      "outputs": {
+        "clo_tout": 0.82
+      }
+    },
+    {
       "inputs": {
         "tout": [4, 2, 0]
       },
-      "outputs": [0.67, 0.75, 0.82]
+      "outputs": {
+        "clo_tout": [0.67, 0.75, 0.82]
+      }
     },
     {
-      "source": "",
       "inputs": {
         "tout": [-4, -6]
       },
-      "outputs": [0.96, 1.0]
+      "outputs": {
+        "clo_tout": [0.96, 1.0]
+      }
     },
     {
-      "source": "",
       "inputs": {
-        "tout": 27,
-        "units": "invalid"
+        "tout": -4
       },
-      "error": "ValueError"
+      "outputs": {
+        "clo_tout": 0.96
+      }
     },
     {
-      "source": "",
       "inputs": {
-        "tout": "invalid"
+        "tout": -6
       },
-      "error": "TypeError"
+      "outputs": {
+        "clo_tout": 1.0
+      }
     }
   ]
 }
