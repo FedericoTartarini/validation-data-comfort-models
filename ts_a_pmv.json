@@ -16,10 +16,12 @@
         "vr": 9,
         "rh": 0.1,
         "met": 1.4,
-        "clo" : 0.5,
-        "a_coefficient" : 0.293
+        "clo": 0.5,
+        "a_coefficient": 0.293
       },
-      "outputs": 0.48
+      "outputs": {
+        "a_pmv": 0.48
+      }
     },
     {
       "source": "",
@@ -29,10 +31,12 @@
         "vr": 9,
         "rh": 0.1,
         "met": 1.4,
-        "clo" : 0.5,
-        "a_coefficient" : 0.293
+        "clo": 0.5,
+        "a_coefficient": 0.293
       },
-      "outputs": 1.09
+      "outputs": {
+        "a_pmv": 1.09
+      }
     }
   ]
 }
