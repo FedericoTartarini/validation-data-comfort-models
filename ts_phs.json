@@ -5,11 +5,11 @@
     "license": "MIT"
   },
   "tolerance": {
-    't_re': 0.1,
-    'd_lim_loss_50': 1,
-    'd_lim_loss_95': 1,
-    'd_lim_t_re': 1,
-    'water_loss': 1
+    "t_re": 0.1,
+    "d_lim_loss_50": 1,
+    "d_lim_loss_95": 1,
+    "d_lim_t_re": 1,
+    "water_loss": 1
   },
   "data": [
     {
