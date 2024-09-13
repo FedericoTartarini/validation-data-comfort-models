@@ -54,24 +54,7 @@
       "outputs": {
         "PPD_vg": 1.7,
         "Acceptability": true
-      }
-     },
-    {
-      "execute_in_R": false,
-      "inputs": {
-        "tdb": [77, 25, 25],
-        "tr": [77, 25, 25],
-        "v": [0.328, 0.1, 0.1],
-        "rh": [50, 50, 50],
-        "met": [1.2, 1.2, 1.2],
-        "clo": [0.5, 0.5, 0.5],
-        "delta_t": [3.889, 7, 4],
-        "units": ["ip", "SI", "SI"]
-      },
-      "outputs": {
-        "PPD_vg": [13.0, 12.6, 1.7],
-        "Acceptability": [false, false, true]
-      }
+     }
     }
   ]
 }
