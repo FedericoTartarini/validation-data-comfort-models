@@ -9,7 +9,6 @@
   },
   "data": [
     {
-      "source": "test_e_pmv.py",
       "inputs": {
         "tdb": [24, 30],
         "tr": 30,
@@ -19,7 +18,37 @@
         "clo": 0.5,
         "e_coefficient": 0.6
       },
-      "outputs": [0.29, 0.91]
+      "outputs": {
+        "pmv": [0.29, 0.91]
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 24,
+        "tr": 30,
+        "vr": 0.22,
+        "rh": 50,
+        "met": 1.4,
+        "clo": 0.5,
+        "e_coefficient": 0.6
+      },
+      "outputs": {
+        "pmv": 0.29
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "vr": 0.22,
+        "rh": 50,
+        "met": 1.4,
+        "clo": 0.5,
+        "e_coefficient": 0.6
+      },
+      "outputs": {
+        "pmv": 0.91
+      }
     }
   ]
 }
