@@ -12,13 +12,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 45,
+        "sol_altitude": 45,
         "sharp": 0,
-        "I_dir": 700,
-        "t_sol": 0.8,
+        "sol_radiation_dir": 700,
+        "sol_transmittance": 0.8,
         "f_svv": 0.2,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -29,13 +29,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 0,
+        "sol_altitude": 0,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -46,13 +46,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 60,
+        "sol_altitude": 60,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -63,13 +63,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 90,
+        "sol_altitude": 90,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -80,13 +80,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 0,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -97,13 +97,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 30,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -114,13 +114,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 60,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -131,13 +131,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 90,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -148,13 +148,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 150,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -165,13 +165,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 180,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -182,13 +182,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Standing"
       },
       "outputs": {
@@ -199,13 +199,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 400,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 400,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -216,13 +216,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 600,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 600,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -233,13 +233,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 1000,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 1000,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -250,13 +250,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.1,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.1,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -267,13 +267,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.3,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.3,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -284,13 +284,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.7,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.7,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -301,13 +301,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.1,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -318,13 +318,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.3,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -335,13 +335,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.7,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -352,13 +352,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.1,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -369,13 +369,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.3,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -386,13 +386,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.7,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
@@ -403,13 +403,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.3,
+        "asw": 0.3,
         "posture": "Seated"
       },
       "outputs": {
@@ -420,13 +420,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.5,
+        "asw": 0.5,
         "posture": "Seated"
       },
       "outputs": {
@@ -437,13 +437,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.9,
+        "asw": 0.9,
         "posture": "Seated"
       },
       "outputs": {
@@ -454,13 +454,13 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "alt": 30,
+        "sol_altitude": 30,
         "sharp": 120,
-        "I_dir": 800,
-        "t_sol": 0.5,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
         "f_svv": 0.5,
         "f_bes": 0.5,
-        "asa": 0.7,
+        "asw": 0.7,
         "posture": "Seated"
       },
       "outputs": {
