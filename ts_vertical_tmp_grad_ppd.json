@@ -54,7 +54,10 @@
       "outputs": {
         "PPD_vg": 1.7,
         "Acceptability": true
-      },
+      }
+     },
+    {
+      "execute_in_R": false,
       "inputs": {
         "tdb": [77, 25, 25],
         "tr": [77, 25, 25],
