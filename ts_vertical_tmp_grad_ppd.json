@@ -67,7 +67,7 @@
       },
       "outputs": {
         "PPD_vg": [13.0, 12.6, 1.7],
-        "Acceptability": [False, False, True]
+        "Acceptability": [false, false, true]
       }
     }
   ]
