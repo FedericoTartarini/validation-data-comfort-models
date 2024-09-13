@@ -9,16 +9,56 @@
   },
   "data": [
     {
-      "source": "test_athb.py",
       "inputs": {
-        "tdb": [25, 25, 15, 25],
-        "tr": [25, 35, 25, 25],
-        "vr": [0.1, 0.1, 0.2, 0.1],
-        "rh": [50, 50, 50, 60],
-        "met": [1.1, 1.5, 1.2, 2],
-        "t_running_mean": [20, 20, 20, 20]
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.1,
+        "rh": 50,
+        "met": 1.1,
+        "t_running_mean": 20
       },
-      "outputs": [0.17, 0.912, -0.755, 0.38]
+      "outputs": {
+        "athb_pmv": 0.17
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 35,
+        "vr": 0.1,
+        "rh": 50,
+        "met": 1.5,
+        "t_running_mean": 20
+      },
+      "outputs": {
+        "athb_pmv": 0.912
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 15,
+        "tr": 25,
+        "vr": 0.2,
+        "rh": 50,
+        "met": 1.2,
+        "t_running_mean": 20
+      },
+      "outputs": {
+        "athb_pmv": -0.755
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.1,
+        "rh": 60,
+        "met": 2,
+        "t_running_mean": 20
+      },
+      "outputs": {
+        "athb_pmv": 0.38
+      }
     }
   ]
 }
