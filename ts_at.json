@@ -1,6 +1,6 @@
 {
   "information": {
-    "summary": "This file contains a series of validation tables for at() function in pythermalcomfort",
+    "summary": "This file contains a series of validation tables for at() function in pythermalcomfort, jsthermalcomfort",
     "version": "1.0.0",
     "license": "MIT"
   },
@@ -9,7 +9,6 @@
   },
   "data": [
     {
-      "source": "",
       "inputs": {
         "tdb": 25,
         "rh": 30,
@@ -18,7 +17,6 @@
       "outputs": 24.1
     },
     {
-      "source": "",
       "inputs": {
         "tdb": 23,
         "rh": 70,
@@ -27,7 +25,6 @@
       "outputs": 24.8
     },
     {
-      "source": "",
       "inputs": {
         "tdb": 23,
         "rh": 70,
