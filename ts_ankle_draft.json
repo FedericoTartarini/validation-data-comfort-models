@@ -1,6 +1,6 @@
 {
   "information": {
-    "summary": "This file contains validation data for the ankle_draft() function in pythermalcomfort",
+    "summary": "This file contains validation data for the ankle_draft() function in pythermalcomfort,jsthermalconfort,calcAD() in R",
     "version": "1.0.0",
     "license": "MIT"
   },
