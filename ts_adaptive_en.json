@@ -9,7 +9,6 @@
   },
   "data": [
     {
-      "source": "",
       "inputs": {
         "tdb": 25,
         "tr": 25,
@@ -30,7 +29,6 @@
       }
     },
     {
-      "source": "",
       "inputs": {
         "tdb": 25,
         "tr": 25,
@@ -51,7 +49,6 @@
       }
     },
     {
-      "source": "",
       "inputs": {
         "tdb": 23.5,
         "tr": 23.5,
@@ -72,7 +69,7 @@
       }
     },
     {
-      "source": "",
+      "execute_in_R": false,
       "inputs": {
         "tdb": [25, 25, 23.5],
         "tr": [25, 25, 23.5],
