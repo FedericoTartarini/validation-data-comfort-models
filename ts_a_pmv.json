@@ -11,10 +11,10 @@
     {
       "source": "",
       "inputs": {
-        "tdb": 25,
-        "tr": 25,
-        "vr": 9,
-        "rh": 0.1,
+        "tdb": 24,
+        "tr": 30,
+        "vr": 0.22,
+        "rh": 50,
         "met": 1.4,
         "clo": 0.5,
         "a_coefficient": 0.293
@@ -27,15 +27,30 @@
       "source": "",
       "inputs": {
         "tdb": 30,
-        "tr": 25,
-        "vr": 9,
-        "rh": 0.1,
+        "tr": 30,
+        "vr": 0.22,
+        "rh": 50,
         "met": 1.4,
         "clo": 0.5,
         "a_coefficient": 0.293
       },
       "outputs": {
         "a_pmv": 1.09
+      }
+    },
+    {
+      "source": "",
+      "inputs": {
+        "tdb": [24, 30],
+        "tr": 30,
+        "vr": 0.22,
+        "rh": 50,
+        "met": 1.4,
+        "clo": 0.5,
+        "a_coefficient": 0.293
+      },
+      "outputs": {
+        "a_pmv": 0.48
       }
     }
   ]
