@@ -47,7 +47,7 @@
         "a_coefficient": 0.293
       },
       "outputs": {
-        "a_pmv": 0.48
+        "a_pmv": [0.48, 1.09]
       }
     }
   ]
