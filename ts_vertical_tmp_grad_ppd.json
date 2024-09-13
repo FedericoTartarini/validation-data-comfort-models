@@ -1,7 +1,7 @@
 {
   "information": {
     "summary": "This file contains validation data for the vertical_tmp_grad_ppd() function in pythermalcomfort, jsthermalcomfort, calcVTG() in R",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "license": "MIT"
   },
   "tolerance": {
@@ -16,7 +16,7 @@
         "rh": 50,
         "met": 1.2,
         "clo": 0.5,
-        "delta_t": 3.889,
+        "delta_t": 3.8889,
         "units": "ip"
       },
       "outputs": {
@@ -32,8 +32,7 @@
         "rh": 50,
         "met": 1.2,
         "clo": 0.5,
-        "delta_t": 7,
-        "units": "SI"
+        "delta_t": 7
       },
       "outputs": {
         "PPD_vg": 12.6,
@@ -48,13 +47,12 @@
         "rh": 50,
         "met": 1.2,
         "clo": 0.5,
-        "delta_t": 4,
-        "units": "SI"
+        "delta_t": 4
       },
       "outputs": {
         "PPD_vg": 1.7,
         "Acceptability": true
-     }
+      }
     }
   ]
 }
