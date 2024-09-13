@@ -1,6 +1,6 @@
 {
   "information": {
-    "summary": "This file contains validation data for the humidex() function in pythermalcomfort, jsthermalcomfort, calcHumidity() in R"",
+    "summary": "This file contains validation data for the humidex() function in pythermalcomfort, jsthermalcomfort, calcHumidity() in R",
     "version": "1.0.0",
     "license": "MIT"
   },
