@@ -41,6 +41,7 @@
         ]
       }
     },
+    {
     "inputs": {
         "tdb": 10,
         "tr": 10,
@@ -507,7 +508,7 @@
       "outputs": {
         "cooling_effect": 4.46
       }
-    }
+    },
     {
       "inputs": {
         "tdb": 25,
