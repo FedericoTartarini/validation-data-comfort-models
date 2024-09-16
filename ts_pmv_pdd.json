@@ -1,6 +1,6 @@
 {
   "information": {
-    "summary": "This file contains a series of vralidation tables for pmvrpdd() in pythermalcomfort, jsthermalcomfort, calcPMVPDD() in R",
+    "summary": "This file contains a series of vralidation tables for pmv_pdd() in pythermalcomfort, jsthermalcomfort, calcPMVPDD() in R",
     "version": "1.0.0",
     "license": "MIT"
   },
