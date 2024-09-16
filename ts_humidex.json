@@ -24,8 +24,7 @@
         "rh": 50
       },
       "outputs": {
-        "humidex": 28.2,
-        "discomfort": "Little or no discomfort"
+        "keys": ["humidex", "discomfort"]
       }
     },
     {
@@ -35,8 +34,8 @@
         "round": true
       },
       "outputs": {
-        "humidex": 28,
-        "discomfort": "Little or no discomfort"
+        "humidex_type": ["int", "float"],
+        "is_rounded": true
       }
     },
     {
