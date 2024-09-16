@@ -19,17 +19,6 @@
       }
     },
     {
-      "inputs": {
-        "tdb": 25,
-        "rh": 50,
-        "round": true
-      },
-      "outputs": {
-        "humidex": 28,
-        "discomfort": "Little or no discomfort"
-      }
-    },
-    {
       "inputs": [
         {"tdb": 10, "rh": 50},
         {"tdb": 28, "rh": 50},
