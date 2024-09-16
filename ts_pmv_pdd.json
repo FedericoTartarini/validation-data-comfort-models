@@ -310,7 +310,7 @@
       }
     },
     {
-      "source": "ISO 7730 2005",
+      "source": "ASHRAE 55 2017",
       "inputs": {
         "tdb": 67.3,
         "tr": 67.3,
@@ -325,7 +325,7 @@
       }
     },
     {
-      "source": "ISO 7730 2005",
+      "source": "ASHRAE 55 2017",
       "inputs": {
         "tdb": 75.0,
         "tr": 75.0,
@@ -340,7 +340,7 @@
       }
     },
     {
-      "source": "ISO 7730 2005",
+      "source": "ASHRAE 55 2017",
       "inputs": {
         "tdb": 78.2,
         "tr": 78.2,
@@ -355,7 +355,7 @@
       }
     },
     {
-      "source": "ISO 7730 2005",
+      "source": "ASHRAE 55 2017",
       "inputs": {
         "tdb": 70.2,
         "tr": 70.2,
@@ -370,7 +370,7 @@
       }
     },
     {
-      "source": "ISO 7730 2005",
+      "source": "ASHRAE 55 2017",
       "inputs": {
         "tdb": 74.5,
         "tr": 74.5,
@@ -385,7 +385,7 @@
       }
     },
     {
-      "source": "ISO 7730 2005",
+      "source": "ASHRAE 55 2017",
       "inputs": {
         "tdb": 80.2,
         "tr": 80.2,
@@ -400,7 +400,7 @@
       }
     },
     {
-      "source": "ISO 7730 2005",
+      "source": "ASHRAE 55 2017",
       "inputs": {
         "tdb": 82.2,
         "tr": 82.2,
@@ -415,7 +415,7 @@
       }
     },
     {
-      "source": "ISO 7730 2005",
+      "source": "ASHRAE 55 2017",
       "inputs": {
         "tdb": 76.5,
         "tr": 76.5,
