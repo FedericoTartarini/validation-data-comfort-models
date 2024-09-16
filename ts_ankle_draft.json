@@ -20,7 +20,7 @@
         "units": "si"
       },
       "outputs": {
-        "ppd": 18.5
+        "PPD_ad": 18.5
       }
     },
     {
@@ -32,10 +32,10 @@
         "met": 1.2,
         "clo": 0.5,
         "v_ankle": 1.312,
-        "units": "IP"
+        "units": "ip"
       },
       "outputs": {
-        "ppd": 23.5
+        "PPD_ad": 23.5
       }
     }
   ]
