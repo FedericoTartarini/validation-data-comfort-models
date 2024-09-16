@@ -9,8 +9,8 @@
     {
       "source":"test_discomfort_index",  
       "inputs": {
-            "temperature": [21, 23.5, 29, 32, 35, 40],
-            "humidity": 50
+            "tdb": [21, 23.5, 29, 32, 35, 40],
+            "rh": 50
         },
         "outputs": {
             "di": [19.2, 21.0, 25.0, 27.2, 29.4, 33.0],
