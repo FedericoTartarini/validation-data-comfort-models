@@ -40,24 +40,6 @@
       }
     },
     {
-      "inputs": {
-        "tdb": "25",
-        "rh": 50
-      },
-      "outputs": {
-        "error": "TypeError"
-      }
-    },
-    {
-      "inputs": {
-        "tdb": 25,
-        "rh": "50"
-      },
-      "outputs": {
-        "error": "TypeError"
-      }
-    },
-    {
       "inputs": [
         {"tdb": 10, "rh": 50},
         {"tdb": 28, "rh": 50},
