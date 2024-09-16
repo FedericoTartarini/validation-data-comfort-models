@@ -4,7 +4,9 @@
     "version": "1.0.0",
     "license": "MIT"
   },
-  "tolerance": {},
+  "tolerance": {
+    "di" : 0.1
+  },
   "data": [
     {
       "source":"test_discomfort_index",  
