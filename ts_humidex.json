@@ -24,7 +24,7 @@
         "rh": 50
       },
       "outputs": {
-        "keys": ["humidex", "discomfort"]
+        "key": ["humidex", "discomfort"]
       }
     },
     {
