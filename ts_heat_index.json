@@ -4,7 +4,9 @@
     "version": "1.0.0",
     "license": "MIT"
   },
-  "tolerance": {0.1},
+  "tolerance": {
+    0.1
+  },
   "data": [
     {
       "source": "",
@@ -12,7 +14,9 @@
         "tdb": 25,
         "rh": 50,
       },
-      "outputs": 25.9
+      "outputs": {
+        "hi": 25.9
+      }
     },
     {
       "source": "",
@@ -21,7 +25,9 @@
         "rh": 50,
         "units": "IP"
       },
-      "outputs": 78.6
+      "outputs": {
+        "hi": 78.6
+      }
     },
     {
       "source": "",
@@ -29,7 +35,9 @@
         "tdb": 30,
         "rh": 80,
       },
-      "outputs": 37.7
+      "outputs": {
+        "hi": 37.7
+      }
     },
     {
       "source": "",
@@ -38,7 +46,9 @@
         "rh": 80,
         "units": "IP"
       },
-      "outputs": 99.8
+      "outputs": {
+        "hi": 99.8
+      }
     }
   ]
 }
