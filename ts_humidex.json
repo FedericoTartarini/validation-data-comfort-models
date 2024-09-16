@@ -21,21 +21,12 @@
     {
       "inputs": {
         "tdb": 25,
-        "rh": 50
-      },
-      "outputs": {
-        "key": ["humidex", "discomfort"]
-      }
-    },
-    {
-      "inputs": {
-        "tdb": 25,
         "rh": 50,
         "round": true
       },
       "outputs": {
-        "humidex_type": ["int", "float"],
-        "is_rounded": true
+        "humidex": 28,
+        "discomfort": "Little or no discomfort"
       }
     },
     {
