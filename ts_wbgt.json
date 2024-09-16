@@ -14,7 +14,9 @@
         "tdb": 20,
         "with_solar_load": true
       },
-      "outputs": 25.9
+      "outputs": {
+        "wbgt": 25.9
+      }
     },
     {
       "source": "",
@@ -23,7 +25,9 @@
         "tg": 40,
         "round": true
       },
-      "outputs": 24.1
+      "outputs": {
+        "wbgt": 24.1
+      }
     },
     {
       "source": "",
@@ -32,7 +36,9 @@
         "tg": 55,
         "round": true
       },
-      "outputs": 31.3
+      "outputs": {
+        "wbgt": 31.3
+      }
     },
     {
       "source": "",
@@ -41,7 +47,9 @@
         "tg": 40,
         "round": true
       },
-      "outputs": 23.7
+      "outputs": {
+        "wbgt": 23.7
+      }
     },
     {
       "source": "",
@@ -49,7 +57,9 @@
         "twb": 25,
         "tg": 30
       },
-      "outputs": 26.5
+      "outputs": {
+        "wbgt": 26.5
+      }
     },
     {
       "source": "",
@@ -58,7 +68,9 @@
         "tg": 30,
         "tdb": 20
       },
-      "outputs": 26.5
+      "outputs": {
+        "wbgt": 26.5
+      }
     },
     {
       "source": "",
@@ -67,7 +79,9 @@
         "tg": 30,
         "round": false
       },
-      "outputs": 26.5
+      "outputs": {
+        "wbgt": 26.5
+      }
     },
     {
       "source": "",
@@ -75,7 +89,9 @@
         "twb": 0,
         "tg": 0
       },
-      "outputs": 0.0
+      "outputs": {
+        "wbgt": 0.0
+      }
     },
     {
       "source": "",
@@ -84,7 +100,9 @@
         "tg": 30,
         "tdb": 0
       },
-      "outputs": 26.5
+      "outputs": {
+        "wbgt": 26.5
+      }
     }
   ]
 }
