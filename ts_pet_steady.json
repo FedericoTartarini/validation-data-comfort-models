@@ -5,11 +5,10 @@
     "license": "MIT"
   },
   "tolerance": {
-    0.1
+   "PET": 0.1
   },
   "data": [
     {
-      "source": "",
       "inputs": {
         "tdb": 20,
         "tr": 20,
@@ -21,7 +20,6 @@
       "outputs": 18.85
     },
     {
-      "source": "",
       "inputs": {
         "tdb": 30,
         "tr": 30,
@@ -45,7 +43,6 @@
       "outputs": 17.16
     },
     {
-      "source": "",
       "inputs": {
         "tdb": 21,
         "tr": 21,
@@ -57,7 +54,6 @@
       "outputs": 21.08
     },
     {
-      "source": "",
       "inputs": {
         "tdb": 20,
         "tr": 20,
@@ -69,7 +65,6 @@
       "outputs": 19.92
     },
     {
-      "source": "",
       "inputs": {
         "tdb": -5,
         "tr": 40,
@@ -81,7 +76,6 @@
       "outputs": 7.82
     },
     {
-      "source": "",
       "inputs": {
         "tdb": -5,
         "tr": -5,
@@ -93,7 +87,6 @@
       "outputs": -13.38
     },
     {
-      "source": "",
       "inputs": {
         "tdb": 30,
         "tr": 60,
@@ -105,7 +98,6 @@
       "outputs": 44.63
     },
     {
-      "source": "",
       "inputs": {
         "tdb": 30,
         "tr": 30,
