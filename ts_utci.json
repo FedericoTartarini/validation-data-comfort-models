@@ -89,7 +89,7 @@
         "v": 16
       },
       "outputs": {
-        "utci": "NaN"
+        "utci": null
       }
     },
     {
@@ -101,7 +101,7 @@
         "v": 0
       },
       "outputs": {
-        "utci": "NaN"
+        "utci": null
       }
     },
     {
