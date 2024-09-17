@@ -5,7 +5,7 @@
     "license": "MIT"
   },
   "tolerance": {
-   "PET": 0.1
+    "PET": 0.1
   },
   "data": [
     {
@@ -17,7 +17,9 @@
         "met": 1.37,
         "clo": 0.5
       },
-      "outputs": 18.85
+      "outputs": {
+        "PET": 18.85
+      }
     },
     {
       "inputs": {
@@ -28,10 +30,11 @@
         "met": 1.37,
         "clo": 0.5
       },
-      "outputs": 30.6
+      "outputs": {
+        "PET": 30.6
+      }
     },
     {
-      "source": "",
       "inputs": {
         "tdb": 20,
         "tr": 20,
@@ -40,7 +43,9 @@
         "met": 1.37,
         "clo": 0.5
       },
-      "outputs": 17.16
+      "outputs": {
+        "PET": 17.16
+      }
     },
     {
       "inputs": {
@@ -51,7 +56,9 @@
         "met": 1.37,
         "clo": 0.9
       },
-      "outputs": 21.08
+      "outputs": {
+        "PET": 21.08
+      }
     },
     {
       "inputs": {
@@ -62,7 +69,9 @@
         "met": 1.37,
         "clo": 0.9
       },
-      "outputs": 19.92
+      "outputs": {
+        "PET": 19.92
+      }
     },
     {
       "inputs": {
@@ -73,7 +82,9 @@
         "met": 1.37,
         "clo": 0.9
       },
-      "outputs": 7.82
+      "outputs": {
+        "PET": 7.82
+      }
     },
     {
       "inputs": {
@@ -84,7 +95,9 @@
         "met": 1.37,
         "clo": 0.9
       },
-      "outputs": -13.38
+      "outputs": {
+        "PET": -13.38
+      }
     },
     {
       "inputs": {
@@ -95,7 +108,9 @@
         "met": 1.37,
         "clo": 0.9
       },
-      "outputs": 44.63
+      "outputs": {
+        "PET": 44.63
+      }
     },
     {
       "inputs": {
@@ -106,7 +121,9 @@
         "met": 1.37,
         "clo": 0.9
       },
-      "outputs": 32.21
+      "outputs": {
+        "PET": 32.21
+      }
     }
   ]
 }
