@@ -1,17 +1,17 @@
 {
   "information": {
-    "summary": "This file contains a series of validation tables for set_tmp() in pythermalcomfort, jsthermalcomfort, calcSET() in R",
+    "summary": "This file contdbins a series of validation tdbbles for set_tmp() in pythermalcomfort, jsthermalcomfort, calcSET() in R",
     "version": "1.0.0",
     "license": "MIT"
   },
   "tolerance": {
     0.1
   },
-  "data": [
+  "datdb": [
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 10,
         "v": 0.15,
@@ -25,7 +25,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 0,
+        "tdb": 0,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -39,7 +39,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 10,
+        "tdb": 10,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -53,7 +53,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 15,
+        "tdb": 15,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -67,7 +67,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 20,
+        "tdb": 20,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -81,7 +81,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 30,
+        "tdb": 30,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -95,7 +95,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 40,
+        "tdb": 40,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -109,7 +109,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 10,
         "v": 0.15,
@@ -123,7 +123,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 90,
         "v": 0.15,
@@ -137,7 +137,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 0.1,
@@ -151,7 +151,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 0.6,
@@ -165,7 +165,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 1.1,
@@ -179,7 +179,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 3,
@@ -193,7 +193,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 10,
         "rh": 50,
         "v": 0.15,
@@ -207,7 +207,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 40,
         "rh": 50,
         "v": 0.15,
@@ -221,7 +221,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -235,7 +235,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -249,7 +249,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -263,7 +263,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -277,7 +277,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -291,7 +291,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -305,7 +305,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -319,7 +319,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 0.15,
@@ -333,7 +333,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 1.1,
@@ -347,7 +347,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 1.1,
@@ -361,7 +361,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 1.1,
@@ -375,7 +375,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 1.1,
@@ -389,7 +389,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 1.1,
@@ -403,7 +403,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 25,
         "rh": 50,
         "v": 1.1,
@@ -417,7 +417,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 29,
+        "tdb": 29,
         "tr": 25,
         "rh": 50,
         "v": 1.1,
@@ -431,7 +431,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 27,
+        "tdb": 27,
         "tr": 25,
         "rh": 50,
         "v": 1.1,
@@ -445,7 +445,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 20,
+        "tdb": 20,
         "tr": 25,
         "rh": 50,
         "v": 1.1,
@@ -459,7 +459,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 27,
         "rh": 50,
         "v": 1.1,
@@ -473,7 +473,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 29,
         "rh": 50,
         "v": 1.1,
@@ -487,7 +487,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 31,
         "rh": 50,
         "v": 1.1,
@@ -501,7 +501,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 27,
         "rh": 50,
         "v": 1.3,
@@ -515,7 +515,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 29,
         "rh": 50,
         "v": 1.5,
@@ -529,7 +529,7 @@
     {
       "source": "ASHRAE 55 2017",
       "inputs": {
-        "ta": 25,
+        "tdb": 25,
         "tr": 31,
         "rh": 50,
         "v": 1.7,
