@@ -1,6 +1,6 @@
 {
   "information": {
-    "summary": "This file contains a series of validation tables for the heat_index() function in pythermalcomfort.",
+    "summary": "This file contains a series of validation tables for the heat_index() function in pythermalcomfort, jsthermalcomfort.",
     "version": "1.0.0",
     "license": "MIT"
   },
