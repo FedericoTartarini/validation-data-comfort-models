@@ -1,0 +1,171 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for utci() in pythermalcomfort, jsthermalcomfort, calcUTCI() in R",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "utci": 0.1
+  },
+  "data": [
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 27,
+        "rh": 50,
+        "v": 1
+      },
+      "outputs": {
+        "utci": 25.2
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 19,
+        "tr": 24,
+        "rh": 50,
+        "v": 1
+      },
+      "outputs": {
+        "utci": 20.0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 19,
+        "tr": 14,
+        "rh": 50,
+        "v": 1
+      },
+      "outputs": {
+        "utci": 16.8
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 27,
+        "tr": 22,
+        "rh": 50,
+        "v": 1
+      },
+      "outputs": {
+        "utci": 25.5
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 27,
+        "tr": 22,
+        "rh": 50,
+        "v": 10
+      },
+      "outputs": {
+        "utci": 20.0
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 27,
+        "tr": 22,
+        "rh": 50,
+        "v": 16
+      },
+      "outputs": {
+        "utci": 15.8
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 51,
+        "tr": 22,
+        "rh": 50,
+        "v": 16
+      },
+      "outputs": {
+        "utci": null
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 27,
+        "tr": 22,
+        "rh": 50,
+        "v": 0
+      },
+      "outputs": {
+        "utci": null
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 77,
+        "tr": 77,
+        "rh": 50,
+        "v": 3.28,
+        "units": "ip"
+      },
+      "outputs": {
+        "utci": 76.4
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 27,
+        "rh": 50,
+        "v": 1,
+        "units": "si",
+        "return_stress_category": true
+      },
+      "outputs": {
+        "utci": 29.6,
+        "stress_category": "moderate heat stress"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 9,
+        "tr": 9,
+        "rh": 50,
+        "v": 1,
+        "units": "si",
+        "return_stress_category": true
+      },
+      "outputs": {
+        "utci": 8.7,
+        "stress_category": "slight cold stress"
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": [25, 25],
+        "tr": [27, 25],
+        "v": [1, 1],
+        "rh": [50, 50],
+        "units": "si",
+        "return_stress_category": true
+      },
+      "outputs": {
+        "utci": [25.2, 24.6],
+        "stress_category": ["no thermal stress", "no thermal stress"]
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": [25, 19, 19, 27, 27, 27, 51, 27],
+        "tr": [27, 24, 14, 22, 22, 22, 22, 22],
+        "rh": [50, 50, 50, 50, 50, 50, 50, 50],
+        "v": [1, 1, 1, 1, 10, 16, 16, 0]
+      },
+      "outputs": {
+        "utci": [25.2, 20.0, 16.8, 25.5, 20.0, 15.8, null, null]
+      }
+    }
+  ]
+}

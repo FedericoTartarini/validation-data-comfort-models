@@ -1,0 +1,728 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for cooling_effect() in pythermalcomfort, jsthermalcomfort, calcCE() in R",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "cooling_effect": 0.1
+  },
+  "data": [
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 10,
+        "vr": 0.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 10,
+        "vr": 1.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 8.19
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 10,
+        "vr": 2.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 10.94
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 10,
+        "vr": 3.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 12.54
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 35,
+        "vr": 0.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 35,
+        "vr": 1.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 8.05
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 35,
+        "vr": 2.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 10.77
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 35,
+        "vr": 3.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 12.35
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 60,
+        "vr": 0.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 60,
+        "vr": 1.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 7.91
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 60,
+        "vr": 2.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 10.6
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "tr": 10,
+        "rh": 60,
+        "vr": 3.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 12.16
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 10,
+        "vr": 0.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 10,
+        "vr": 1.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 5.04
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 10,
+        "vr": 2.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 6.62
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 10,
+        "vr": 3.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 7.51
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 35,
+        "vr": 0.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 35,
+        "vr": 1.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 4.84
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 35,
+        "vr": 2.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 6.37
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 35,
+        "vr": 3.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 7.24
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 60,
+        "vr": 0.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 60,
+        "vr": 1.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 4.64
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 60,
+        "vr": 2.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 6.12
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 20,
+        "tr": 20,
+        "rh": 60,
+        "vr": 3.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 6.97
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 10,
+        "vr": 0.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 10,
+        "vr": 1.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 3.64
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 10,
+        "vr": 2.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 4.32
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 10,
+        "vr": 3.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 4.69
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 35,
+        "vr": 0.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 35,
+        "vr": 1.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 3.55
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 35,
+        "vr": 2.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 4.25
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 35,
+        "vr": 3.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 4.61
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 60,
+        "vr": 0.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 60,
+        "vr": 1.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 3.4
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 60,
+        "vr": 2.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 4.1
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "tr": 30,
+        "rh": 60,
+        "vr": 3.1,
+        "met": 1,
+        "clo": 0.5
+      },
+      "outputs": {
+        "cooling_effect": 4.46
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.05,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 2.17
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 27,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 1.85
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 29,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 1.63
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 31,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 1.42
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 27,
+        "vr": 0.5,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 2.44
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 29,
+        "vr": 0.5,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 2.81
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.2,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 0.67
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.8,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 2.93
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.0,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 60,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 2.13
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 80,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 2.06
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 20,
+        "met": 1,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 2.29
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 60,
+        "met": 1.3,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 2.84
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 60,
+        "met": 1.6,
+        "clo": 0.6
+      },
+      "outputs": {
+        "cooling_effect": 3.5
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 60,
+        "met": 1,
+        "clo": 0.3
+      },
+      "outputs": {
+        "cooling_effect": 2.41
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "vr": 0.5,
+        "rh": 60,
+        "met": 1,
+        "clo": 1
+      },
+      "outputs": {
+        "cooling_effect": 2.05
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 0,
+        "tr": 80,
+        "vr": 5,
+        "rh": 60,
+        "met": 3,
+        "clo": 1
+      },
+      "outputs": {
+        "cooling_effect": 0
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 77,
+        "tr": 77,
+        "vr": 1.64,
+        "rh": 50,
+        "met": 1,
+        "clo": 0.6,
+        "units": "IP"
+      },
+      "outputs": {
+        "cooling_effect": 3.95
+      }
+    }
+  ]
+}

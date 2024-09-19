@@ -1,0 +1,43 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for at() function in pythermalcomfort, jsthermalcomfort",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "at" : 0.1
+  },
+  "data": [
+    {
+      "inputs": {
+        "tdb": 25,
+        "rh": 30,
+        "v": 0.1
+      },
+      "outputs": {
+        "at": 24.1
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 23,
+        "rh": 70,
+        "v": 1
+      },
+      "outputs":{ 
+        "at": 24.8
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 23,
+        "rh": 70,
+        "v": 1,
+        "q": 50
+      },
+      "outputs":{
+        "at":28.1
+      }
+    }
+  ]
+}

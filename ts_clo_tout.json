@@ -1,0 +1,119 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for clo_tout() function in pythermalcomfort and jsthermalcomfort",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "clo_tout": 0.01
+  },
+  "data": [
+    {
+      "inputs": {
+        "tout": 27
+      },
+      "outputs": {
+        "clo_tout": 0.46
+      }
+    },
+    {
+      "inputs": {
+        "tout": 25
+      },
+      "outputs": {
+        "clo_tout": 0.47
+      }
+    },
+    {
+      "inputs": {
+        "tout": [27, 25]
+      },
+      "outputs": {
+        "clo_tout": [0.46, 0.47]
+      }
+    },
+    {
+      "inputs": {
+        "tout": 80.6,
+        "units": "IP"
+      },
+      "outputs": {
+        "clo_tout": 0.46
+      }
+    },
+    {
+      "inputs": {
+        "tout": 77,
+        "units": "IP"
+      },
+      "outputs": {
+        "clo_tout": 0.47
+      }
+    },
+    {
+      "inputs": {
+        "tout": [80.6, 77],
+        "units": "IP"
+      },
+      "outputs": {
+        "clo_tout": [0.46, 0.47]
+      }
+    },
+    {
+      "inputs": {
+        "tout": 4
+      },
+      "outputs": {
+        "clo_tout": 0.67
+      }
+    },
+    {
+      "inputs": {
+        "tout": 2
+      },
+      "outputs": {
+        "clo_tout": 0.75
+      }
+    },
+    {
+      "inputs": {
+        "tout": 0
+      },
+      "outputs": {
+        "clo_tout": 0.82
+      }
+    },
+    {
+      "inputs": {
+        "tout": [4, 2, 0]
+      },
+      "outputs": {
+        "clo_tout": [0.67, 0.75, 0.82]
+      }
+    },
+    {
+      "inputs": {
+        "tout": [-4, -6]
+      },
+      "outputs": {
+        "clo_tout": [0.96, 1.0]
+      }
+    },
+    {
+      "inputs": {
+        "tout": -4
+      },
+      "outputs": {
+        "clo_tout": 0.96
+      }
+    },
+    {
+      "inputs": {
+        "tout": -6
+      },
+      "outputs": {
+        "clo_tout": 1.0
+      }
+    }
+  ]
+}

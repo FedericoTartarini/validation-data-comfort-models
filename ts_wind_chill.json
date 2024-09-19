@@ -1,0 +1,77 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for wc() in pythermalcomfort, jsthermalcomfort, and calcWC() in R",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "wci": 0.1
+  },
+  "data": [
+    {
+      "inputs": {
+        "tdb": 0,
+        "v": 0.1
+      },
+      "outputs": {
+        "wci": 518.6
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 0,
+        "v": 1.5
+      },
+      "outputs": {
+        "wci": 813.5
+      }
+    },
+    {
+      "inputs": {
+        "tdb": -5,
+        "v": 5.5
+      },
+      "outputs": {
+        "wci": 1255.2
+      }
+    },
+    {
+      "inputs": {
+        "tdb": -10,
+        "v": 11
+      },
+      "outputs": {
+        "wci": 1631.1
+      }
+    },
+    {
+      "inputs": {
+        "tdb": -5,
+        "v": 11
+      },
+      "outputs": {
+        "wci": 1441.4
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 0,
+        "v": 0.1,
+        "round": true
+      },
+      "outputs": {
+        "wci": 518.6
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 0,
+        "v": 0.1,
+        "round": false
+      },
+      "outputs": {
+        "wci": 518.587
+      }
+    }
+  ]
+}

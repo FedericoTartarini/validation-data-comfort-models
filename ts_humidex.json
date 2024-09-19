@@ -1,0 +1,190 @@
+{
+  "information": {
+    "summary": "This file contains validation data for the humidex() function in pythermalcomfort, jsthermalcomfort, calcHumidity() in R",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "humidex": 0.1
+  },
+  "data": [
+    {
+      "inputs": {
+        "tdb": 25,
+        "rh": 50
+      },
+      "outputs": {
+        "humidex": 28.2,
+        "discomfort": "Little or no discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Little or no discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 28,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Noticeable discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Evident discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 35,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Intense discomfort; avoid exertion"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 40,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Heat stroke probable"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Little or no discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "rh": 100
+      },
+      "outputs": {
+        "discomfort": "Dangerous discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "rh": 50
+      },
+      "outputs": {
+        "humidex": 28.2,
+        "discomfort": "Little or no discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "rh": 80
+      },
+      "outputs": {
+        "humidex": 43.3,
+        "discomfort": "Intense discomfort; avoid exertion"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 31.6,
+        "rh": 57.1
+      },
+      "outputs": {
+        "humidex": 40.8,
+        "discomfort": "Intense discomfort; avoid exertion"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "rh": 50
+      },
+      "outputs": {
+        "humidex": 28.2,
+        "discomfort": "Little or no discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "rh": 80
+      },
+      "outputs": {
+        "humidex": 43.3,
+        "discomfort": "Intense discomfort; avoid exertion"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 31.6,
+        "rh": 57.1
+      },
+      "outputs": {
+        "humidex": 40.8,
+        "discomfort": "Intense discomfort; avoid exertion"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 10,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Little or no discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 28,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Noticeable discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 30,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Evident discomfort"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 35,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Intense discomfort; avoid exertion"
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 40,
+        "rh": 50
+      },
+      "outputs": {
+        "discomfort": "Heat stroke probable"
+      }
+    }
+  ]
+}

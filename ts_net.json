@@ -1,0 +1,72 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for the net() function in the pythermalcomf and jsthermalcomf.",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "net": 0.1
+  },
+  "data": [
+    {
+      "inputs": {
+        "tdb": 37,
+        "rh": 100,
+        "v": 0.1
+      },
+      "outputs": {
+        "net": 37
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 37,
+        "rh": 100,
+        "v": 4.5
+      },
+      "outputs": {
+        "net": 37
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "rh": 100,
+        "v": 4.5
+      },
+      "outputs": {
+        "net": 20
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "rh": 100,
+        "v": 0.1
+      },
+      "outputs": {
+        "net": 25.4
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 40,
+        "rh": 48.77,
+        "v": 0.1
+      },
+      "outputs": {
+        "net": 33.8
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 36,
+        "rh": 50.196,
+        "v": 0.1
+      },
+      "outputs": {
+        "net": 30.9
+      }
+    }
+  ]
+}

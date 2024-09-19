@@ -1,0 +1,472 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for solar_gain() in pythermalcomfort, jsthermalcomfort, calcSolarGain() in R",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "erf": 0.1,
+    "delta_mrt": 0.1
+  },
+  "data": [
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 45,
+        "sharp": 0,
+        "sol_radiation_dir": 700,
+        "sol_transmittance": 0.8,
+        "f_svv": 0.2,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 64.9,
+        "delta_mrt": 15.5
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 0,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 43.3,
+        "delta_mrt": 10.4
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 60,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 63.2,
+        "delta_mrt": 15.1
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 90,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 65.3,
+        "delta_mrt": 15.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 0,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 63.1,
+        "delta_mrt": 15.1
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 30,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 62.4,
+        "delta_mrt": 14.9
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 60,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 60.5,
+        "delta_mrt": 14.5
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 90,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 57.2,
+        "delta_mrt": 13.7
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 150,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 51.7,
+        "delta_mrt": 12.4
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 180,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 49.0,
+        "delta_mrt": 11.7
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Standing"
+      },
+      "outputs": {
+        "erf": 59.3,
+        "delta_mrt": 13.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 400,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 27.4,
+        "delta_mrt": 6.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 600,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 41.1,
+        "delta_mrt": 9.8
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 1000,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 68.5,
+        "delta_mrt": 16.4
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.1,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 11.0,
+        "delta_mrt": 2.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.3,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 32.9,
+        "delta_mrt": 7.9
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.7,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 76.7,
+        "delta_mrt": 18.4
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.1,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 29.3,
+        "delta_mrt": 7.0
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.3,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 42.1,
+        "delta_mrt": 10.1
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.7,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 67.5,
+        "delta_mrt": 16.2
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.1,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 36.4,
+        "delta_mrt": 8.7
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.3,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 45.6,
+        "delta_mrt": 10.9
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.7,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 64.0,
+        "delta_mrt": 15.3
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.3,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 23.5,
+        "delta_mrt": 5.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.5,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 39.1,
+        "delta_mrt": 9.4
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.9,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 70.4,
+        "delta_mrt": 16.9
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "sol_altitude": 30,
+        "sharp": 120,
+        "sol_radiation_dir": 800,
+        "sol_transmittance": 0.5,
+        "f_svv": 0.5,
+        "f_bes": 0.5,
+        "asw": 0.7,
+        "posture": "Seated"
+      },
+      "outputs": {
+        "erf": 54.8,
+        "delta_mrt": 13.1
+      }
+    }
+  ]
+}

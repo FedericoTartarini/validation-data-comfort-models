@@ -1,0 +1,574 @@
+{
+  "information": {
+    "summary": "This file contains a series of vralidation tables for pmv_pdd() in pythermalcomfort, jsthermalcomfort, calcPMVPDD() in R",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "pmv": 0.1,
+    "ppd": 0.01
+  },
+  "data": [
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 22,
+        "tr": 22,
+        "rh": 60,
+        "vr": 0.1,
+        "met": 1.2,
+        "clo": 0.5,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": -0.8,
+        "ppd": 16.9
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 27,
+        "tr": 27,
+        "rh": 60,
+        "vr": 0.1,
+        "met": 1.2,
+        "clo": 0.5,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": 0.8,
+        "ppd": 17.3
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 27,
+        "tr": 27,
+        "rh": 60,
+        "vr": 0.3,
+        "met": 1.2,
+        "clo": 0.5,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": 0.4,
+        "ppd": 8.9
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 23.5,
+        "tr": 25.5,
+        "rh": 60,
+        "vr": 0.1,
+        "met": 1.2,
+        "clo": 0.5,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": -0.0,
+        "ppd": 5.0
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 23.5,
+        "tr": 25.5,
+        "rh": 60,
+        "vr": 0.3,
+        "met": 1.2,
+        "clo": 0.5,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": -0.6,
+        "ppd": 11.4
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 19,
+        "tr": 19,
+        "rh": 40,
+        "vr": 0.1,
+        "met": 1.2,
+        "clo": 1.0,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": -0.6,
+        "ppd": 12.5
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 23.5,
+        "tr": 23.5,
+        "rh": 40,
+        "vr": 0.3,
+        "met": 1.2,
+        "clo": 1.0,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": 0.1,
+        "ppd": 5.3
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 23.0,
+        "tr": 21.0,
+        "rh": 40,
+        "vr": 0.1,
+        "met": 1.2,
+        "clo": 1.0,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": 0.1,
+        "ppd": 5.1
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 23.0,
+        "tr": 21.0,
+        "rh": 40,
+        "vr": 0.3,
+        "met": 1.2,
+        "clo": 1.0,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": -0.2,
+        "ppd": 5.6
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 22.0,
+        "tr": 22.0,
+        "rh": 60,
+        "vr": 0.1,
+        "met": 1.6,
+        "clo": 0.5,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": 0.1,
+        "ppd": 5.0
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 27.0,
+        "tr": 27.0,
+        "rh": 60,
+        "vr": 0.1,
+        "met": 1.6,
+        "clo": 0.5,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": 1.2,
+        "ppd": 33.9
+      }
+    },
+    {
+      "source": "ISO 7730 2005",
+      "inputs": {
+        "tdb": 27.0,
+        "tr": 27.0,
+        "rh": 60,
+        "vr": 0.3,
+        "met": 1.6,
+        "clo": 0.5,
+        "standard": "ISO"
+      },
+      "outputs": {
+        "pmv": 0.9,
+        "ppd": 24.1
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 19.6,
+        "tr": 19.6,
+        "rh": 86,
+        "vr": 0.1,
+        "met": 1.1,
+        "clo": 1,
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": -0.5,
+        "ppd": 9.7
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 23.9,
+        "tr": 23.9,
+        "rh": 66,
+        "vr": 0.1,
+        "met": 1.1,
+        "clo": 1,
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": 0.5,
+        "ppd": 9.8
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 25.7,
+        "tr": 25.7,
+        "rh": 15,
+        "vr": 0.1,
+        "met": 1.1,
+        "clo": 1,
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": 0.5,
+        "ppd": 10.8
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 21.2,
+        "tr": 21.2,
+        "rh": 20,
+        "vr": 0.1,
+        "met": 1.1,
+        "clo": 1,
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": -0.5,
+        "ppd": 9.7
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 23.6,
+        "tr": 23.6,
+        "rh": 67,
+        "vr": 0.1,
+        "met": 1.1,
+        "clo": 0.5,
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": -0.5,
+        "ppd": 9.7
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 26.8,
+        "tr": 26.8,
+        "rh": 56,
+        "vr": 0.1,
+        "met": 1.1,
+        "clo": 0.5,
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": 0.5,
+        "ppd": 10.6
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 27.9,
+        "tr": 27.9,
+        "rh": 13,
+        "vr": 0.1,
+        "met": 1.1,
+        "clo": 0.5,
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": 0.5,
+        "ppd": 10.2
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 24.7,
+        "tr": 24.7,
+        "rh": 16,
+        "vr": 0.1,
+        "met": 1.1,
+        "clo": 0.5,
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": -0.5,
+        "ppd": 9.9
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 67.3,
+        "tr": 67.3,
+        "rh": 86,
+        "vr": 0.333,
+        "met": 1.1,
+        "clo": 1,
+        "units": "ip",
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": -0.5,
+        "ppd": 9.8
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 75.0,
+        "tr": 75.0,
+        "rh": 66,
+        "vr": 0.333,
+        "met": 1.1,
+        "clo": 1,
+        "units": "ip",
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": 0.5,
+        "ppd": 10
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 78.2,
+        "tr": 78.2,
+        "rh": 15,
+        "vr": 0.333,
+        "met": 1.1,
+        "clo": 1,
+        "units": "ip",
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": 0.5,
+        "ppd": 10
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 70.2,
+        "tr": 70.2,
+        "rh": 20,
+        "vr": 0.333,
+        "met": 1.1,
+        "clo": 1,
+        "units": "ip",
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": -0.5,
+        "ppd": 10
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 74.5,
+        "tr": 74.5,
+        "rh": 67,
+        "vr": 0.333,
+        "met": 1.1,
+        "clo": 0.5,
+        "units": "ip",
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": -0.5,
+        "ppd": 10
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 80.2,
+        "tr": 80.2,
+        "rh": 56,
+        "vr": 0.333,
+        "met": 1.1,
+        "clo": 0.5,
+        "units": "ip",
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": 0.5,
+        "ppd": 10
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 82.2,
+        "tr": 82.2,
+        "rh": 13,
+        "vr": 0.333,
+        "met": 1.1,
+        "clo": 0.5,
+        "units": "ip",
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": 0.5,
+        "ppd": 10
+      }
+    },
+    {
+      "source": "ASHRAE 55 2017",
+      "inputs": {
+        "tdb": 76.5,
+        "tr": 76.5,
+        "rh": 16,
+        "vr": 0.333,
+        "met": 1.1,
+        "clo": 0.5,
+        "units": "ip",
+        "standard": "ASHRAE"
+      },
+      "outputs": {
+        "pmv": -0.5,
+        "ppd": 10
+      }
+    },
+        {
+        "inputs": {
+            "tdb": 67.28,
+            "tr": 67.28,
+            "vr": 0.328084,
+            "rh": 86,
+            "met": 1.1,
+            "clo": 1,
+            "units": "ip"
+        },
+        "outputs": {
+            "pmv": -0.5
+        }
+    },
+    {
+        "inputs": {
+            "tdb": [70, 70],
+            "tr": 67.28,
+            "vr": 0.328084,
+            "rh": 86,
+            "met": 1.1,
+            "clo": 1,
+            "units": "ip"
+        },
+        "outputs": {
+            "pmv": [-0.3, -0.3]
+        }
+    },
+    {
+        "inputs": {
+            "tdb": [26, 24, 22, 26, 24, 22],
+            "tr": [26, 24, 22, 26, 24, 22],
+            "vr": [0.9, 0.6, 0.3, 0.9, 0.6, 0.3],
+            "rh": 50,
+            "met": [1.1, 1.1, 1.1, 1.3, 1.3, 1.3],
+            "clo": [0.5, 0.5, 0.5, 0.7, 0.7, 0.7],
+            "standard": "ASHRAE",
+            "airspeed_control": false
+        },
+        "outputs": {
+            "pmv": [null, null, null, -0.14, -0.43, -0.57]
+        }
+    },
+    {
+        "inputs": {
+            "tdb": [31, 20, 20, 20, 20, 30],
+            "tr": [20, 41, 20, 20, 20, 20],
+            "vr": [0.1, 0.1, 2, 0.1, 0.1, 0.1],
+            "rh": 50,
+            "met": [1.1, 1.1, 1.1, 0.7, 1.1, 4.1],
+            "clo": [0.5, 0.5, 0.5, 0.5, 2.1, 0.1],
+            "standard": "ISO"
+        },
+        "outputs": {
+            "pmv": [null, null, null, null, null, null],
+            "ppd": [null, null, null, null, null, null]
+        }
+    },
+    {
+        "inputs": {
+            "tdb": [41, 20, 20, 20, 20, 39],
+            "tr": [20, 41, 20, 20, 20, 39],
+            "vr": [0.1, 0.1, 2.1, 0.1, 0.1, 0.1],
+            "rh": 50,
+            "met": [1.1, 1.1, 1.1, 0.7, 1.1, 3.9],
+            "clo": [0.5, 0.5, 0.5, 0.5, 2.1, 1.9],
+            "standard": "ASHRAE"
+        },
+        "outputs": {
+            "pmv": [null, null, null, null, null, null],
+            "ppd": [null, null, null, null, null, null]
+        }
+    },
+    {
+        "inputs": {
+            "tdb": 31,
+            "tr": 41,
+            "vr": 2,
+            "rh": 50,
+            "met": 0.7,
+            "clo": 2.1,
+            "standard": "ISO",
+            "limit_inputs": false
+        },
+        "outputs": {
+            "pmv": 2.4,
+            "ppd": 91.0
+        }
+    },
+    {
+        "inputs": {
+            "tdb": 41,
+            "tr": 41,
+            "vr": 2,
+            "rh": 50,
+            "met": 0.7,
+            "clo": 2.1,
+            "standard": "ASHRAE",
+            "limit_inputs": false
+        },
+        "outputs": {
+            "pmv": 4.48,
+            "ppd": 100.0
+        }
+    }
+  ]
+}

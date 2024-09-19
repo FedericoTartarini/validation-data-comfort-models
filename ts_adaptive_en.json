@@ -1,0 +1,93 @@
+{
+  "information": {
+    "summary": "This file contains a series of validation tables for adaptive_en() in pythermalcomfort, jsthermalcomfort, calcAdaptiveEn() in R",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "tmp_cmf": 0.1
+  },
+  "data": [
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "t_running_mean": 9,
+        "v": 0.1
+      },
+      "outputs": {
+        "tmp_cmf": null,
+        "acceptability_cat_i": false,
+        "acceptability_cat_ii": false,
+        "acceptability_cat_iii": false,
+        "tmp_cmf_cat_i_up": null,
+        "tmp_cmf_cat_ii_up": null,
+        "tmp_cmf_cat_iii_up": null,
+        "tmp_cmf_cat_i_low": null,
+        "tmp_cmf_cat_ii_low": null,
+        "tmp_cmf_cat_iii_low": null
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 25,
+        "tr": 25,
+        "t_running_mean": 20,
+        "v": 0.1
+      },
+      "outputs": {
+        "tmp_cmf": 25.4,
+        "acceptability_cat_i": true,
+        "acceptability_cat_ii": true,
+        "acceptability_cat_iii": true,
+        "tmp_cmf_cat_i_up": 27.4,
+        "tmp_cmf_cat_ii_up": 28.4,
+        "tmp_cmf_cat_iii_up": 29.4,
+        "tmp_cmf_cat_i_low": 22.4,
+        "tmp_cmf_cat_ii_low": 21.4,
+        "tmp_cmf_cat_iii_low": 20.4
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 23.5,
+        "tr": 23.5,
+        "t_running_mean": 28,
+        "v": 0.1
+      },
+      "outputs": {
+        "tmp_cmf": 28.0,
+        "acceptability_cat_i": false,
+        "acceptability_cat_ii": false,
+        "acceptability_cat_iii": true,
+        "tmp_cmf_cat_i_up": 30.0,
+        "tmp_cmf_cat_ii_up": 31.0,
+        "tmp_cmf_cat_iii_up": 32.0,
+        "tmp_cmf_cat_i_low": 25.0,
+        "tmp_cmf_cat_ii_low": 24.0,
+        "tmp_cmf_cat_iii_low": 23.0
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": [25, 25, 23.5],
+        "tr": [25, 25, 23.5],
+        "t_running_mean": [9, 20, 28],
+        "v": 0.1
+      },
+      "outputs": {
+        "tmp_cmf": [null, 25.4, 28.0],
+        "acceptability_cat_i": [false, true, false],
+        "acceptability_cat_ii": [false, true, false],
+        "acceptability_cat_iii": [false, true, true],
+        "tmp_cmf_cat_i_up": [null, 27.4, 30.0],
+        "tmp_cmf_cat_ii_up": [null, 28.4, 31.0],
+        "tmp_cmf_cat_iii_up": [null, 29.4, 32.0],
+        "tmp_cmf_cat_i_low": [null, 22.4, 25.0],
+        "tmp_cmf_cat_ii_low": [null, 21.4, 24.0],
+        "tmp_cmf_cat_iii_low": [null, 20.4, 23.0]
+      }
+    }
+  ]
+}
