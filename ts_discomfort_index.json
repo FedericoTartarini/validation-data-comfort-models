@@ -26,7 +26,6 @@
         }
     },
     {
-        "source":"test_discomfort_index", 
         "inputs": {
             "tdb": [35, 35],
             "rh": [10, 90]
