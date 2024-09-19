@@ -464,6 +464,111 @@
         "pmv": -0.5,
         "ppd": 10
       }
+    },
+        {
+        "inputs": {
+            "tdb": 67.28,
+            "tr": 67.28,
+            "v": 0.328084,
+            "rh": 86,
+            "met": 1.1,
+            "clo": 1,
+            "units": "ip"
+        },
+        "outputs": {
+            "pmv": -0.5
+        }
+    },
+    {
+        "inputs": {
+            "tdb": [70, 70],
+            "tr": 67.28,
+            "v": 0.328084,
+            "rh": 86,
+            "met": 1.1,
+            "clo": 1,
+            "units": "ip"
+        },
+        "outputs": {
+            "pmv": [-0.3, -0.3]
+        }
+    },
+    {
+        "inputs": {
+            "tdb": [26, 24, 22, 26, 24, 22],
+            "tr": [26, 24, 22, 26, 24, 22],
+            "v": [0.9, 0.6, 0.3, 0.9, 0.6, 0.3],
+            "rh": 50,
+            "met": [1.1, 1.1, 1.1, 1.3, 1.3, 1.3],
+            "clo": [0.5, 0.5, 0.5, 0.7, 0.7, 0.7],
+            "standard": "ASHRAE",
+            "airspeed_control": false
+        },
+        "outputs": {
+            "pmv": [null, null, null, -0.14, -0.43, -0.57]
+        }
+    },
+    {
+        "inputs": {
+            "tdb": [31, 20, 20, 20, 20, 30],
+            "tr": [20, 41, 20, 20, 20, 20],
+            "v": [0.1, 0.1, 2, 0.1, 0.1, 0.1],
+            "rh": 50,
+            "met": [1.1, 1.1, 1.1, 0.7, 1.1, 4.1],
+            "clo": [0.5, 0.5, 0.5, 0.5, 2.1, 0.1],
+            "standard": "ISO"
+        },
+        "outputs": {
+            "pmv": [null, null, null, null, null, null],
+            "ppd": [null, null, null, null, null, null]
+        }
+    },
+    {
+        "inputs": {
+            "tdb": [41, 20, 20, 20, 20, 39],
+            "tr": [20, 41, 20, 20, 20, 39],
+            "v": [0.1, 0.1, 2.1, 0.1, 0.1, 0.1],
+            "rh": 50,
+            "met": [1.1, 1.1, 1.1, 0.7, 1.1, 3.9],
+            "clo": [0.5, 0.5, 0.5, 0.5, 2.1, 1.9],
+            "standard": "ASHRAE"
+        },
+        "outputs": {
+            "pmv": [null, null, null, null, null, null],
+            "ppd": [null, null, null, null, null, null]
+        }
+    },
+    {
+        "inputs": {
+            "tdb": 31,
+            "tr": 41,
+            "v": 2,
+            "rh": 50,
+            "met": 0.7,
+            "clo": 2.1,
+            "standard": "ISO",
+            "limit_inputs": false
+        },
+        "outputs": {
+            "pmv": 2.4,
+            "ppd": 91.0
+        }
+    },
+    {
+        "inputs": {
+            "tdb": 41,
+            "tr": 41,
+            "v": 2,
+            "rh": 50,
+            "met": 0.7,
+            "clo": 2.1,
+            "standard": "ASHRAE",
+            "limit_inputs": false
+        },
+        "outputs": {
+            "pmv": 4.48,
+            "ppd": 100.0
+        }
     }
   ]
 }
