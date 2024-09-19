@@ -9,7 +9,6 @@
   },
   "data": [
     {
-      "source":"test_discomfort_index",  
       "inputs": {
             "tdb": [21, 23.5, 29, 32, 35, 40],
             "rh": 50
