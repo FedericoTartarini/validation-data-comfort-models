@@ -5,7 +5,7 @@
     "license": "MIT"
   },
   "tolerance": {
-    "t_core" :0.1
+    "t_core" :0.1,
     "e_skin" :0.1,
     "m_rsw": 0.001,
     "pmv_set": 0.1
