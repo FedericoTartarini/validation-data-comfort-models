@@ -23,7 +23,7 @@
         "tdb": 10,
         "rh": 50
       },
-      "output": {
+      "outputs": {
         "discomfort": "Little or no discomfort"
       }
     },
@@ -32,7 +32,7 @@
         "tdb": 28,
         "rh": 50
       },
-      "output": {
+      "outputs": {
         "discomfort": "Noticeable discomfort"
       }
     },
@@ -41,7 +41,7 @@
         "tdb": 30,
         "rh": 50
       },
-      "output": {
+      "outputs": {
         "discomfort": "Evident discomfort"
       }
     },
@@ -50,7 +50,7 @@
         "tdb": 35,
         "rh": 50
       },
-      "output": {
+      "outputs": {
         "discomfort": "Intense discomfort; avoid exertion"
       }
     },
@@ -59,7 +59,7 @@
         "tdb": 40,
         "rh": 50
       },
-      "output": {
+      "outputs": {
         "discomfort": "Heat stroke probable"
       }
     },
@@ -86,7 +86,7 @@
         "tdb": 25,
         "rh": 50
       },
-      "output": {
+      "outputs": {
         "humidex": 28.2,
         "discomfort": "Little or no discomfort"
       }
@@ -96,7 +96,7 @@
         "tdb": 30,
         "rh": 80
       },
-      "output": {
+      "outputs": {
         "humidex": 43.3,
         "discomfort": "Intense discomfort; avoid exertion"
       }
@@ -106,7 +106,7 @@
         "tdb": 31.6,
         "rh": 57.1
       },
-      "output": {
+      "outputs": {
         "humidex": 40.8,
         "discomfort": "Intense discomfort; avoid exertion"
       }
