@@ -10,7 +10,7 @@ def main(fill_miss_output=False):
     all_files = os.listdir("./")
     json_files = [f for f in all_files if f.endswith(".json")]
     if not json_files:
-        print(f"did not find any JSON file, please check project dictory")
+        print(f"No JSON file was found, please check the project directory")
         return
     check_result = {}
     for json_file in json_files:
