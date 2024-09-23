@@ -15,7 +15,7 @@ When you update a JSON file, please run `check_json_files.py` to check the forma
 2. Run the following command:
 
     ```bash
-    python check_scripts/check_json_files.py [fill_miss_output]
+    python check_json_files.py [fill_miss_output]
     ```
 
 3. The script will check all JSON files in the directory and report any format issues.
