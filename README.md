@@ -22,20 +22,20 @@ When you update a JSON file, please run `check_json_files.py` to check the forma
 
 ### `fill_miss_output` Parameter:
 
-- `fill_miss_output` is an optional parameter. When set to `True`, the script will try to use the variables in inputs to call the corresponding method in the pythermalcomfort package by parsing the JSON file name. It will use the return to fill the missing key in outputs, which refers to tolerance.
+- `fill_miss_output` is an optional parameter. When set to `True`, the script will try to use the variables in `inputs` to call the corresponding method in the pythermalcomfort package by parsing the JSON file name(Take the string between ts_ and .json). It will use the return to fill the missing key in `outputs`, which refers to `tolerance`.
 - By default, `fill_miss_output` is `False`, meaning the script will only check the file format without modifying the files.
 
 #### Example Usage:
 - To only check the JSON file format without filling missing outputs:
 
     ```bash
-    python check_scripts/check_json_files.py
+    python check_json_files.py
     ```
 
 - To check and automatically fill missing outputs:
 
     ```bash
-    python check_scripts/check_json_files.py True
+    python check_json_files.py True
     ```
 
 ## File structure
