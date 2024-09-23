@@ -1,156 +1,189 @@
 {
-  "information": {
-    "summary": "This file contains a series of validation tables for two_nodes() in pythermalcomfort, jsthermalcomfort, calc2Node() in R",
-    "version": "1.0.0",
-    "license": "MIT"
-  },
-  "tolerance": {
-    "t_core" :0.1,
-    "e_skin" :0.1,
-    "m_rsw": 0.001,
-    "pmv_set": 0.1
-  },
-  "data": [
-    {
-      "inputs": {
-        "tdb": 25,
-        "tr": 25,
-        "v": 1.1,
-        "rh": 50,
-        "met": 2,
-        "clo": 0.5
-      },
-      "outputs": {
-        "disc": 0.4
-      }
+    "information": {
+        "summary": "This file contains a series of validation tables for two_nodes() in pythermalcomfort, jsthermalcomfort, calc2Node() in R",
+        "version": "1.0.0",
+        "license": "MIT"
     },
-    {
-      "inputs": {
-        "tdb": 25,
-        "tr": 25,
-        "v": 0.1,
-        "rh": 50,
-        "met": 1.2,
-        "clo": 0.5
-      },
-      "outputs": {
-        "disc": 0.3
-      }
+    "tolerance": {
+        "t_core": 0.1,
+        "e_skin": 0.1,
+        "m_rsw": 0.001,
+        "pmv_set": 0.1
     },
-    {
-      "inputs": {
-        "tdb": 30,
-        "tr": 25,
-        "v": 0.1,
-        "rh": 50,
-        "met": 1.2,
-        "clo": 0.5
-      },
-      "outputs": {
-        "disc": 1.0,
-        "pmv_gagge": 0.9,
-        "pmv_set": 1.0
-      }
-    },
-    {  
-      "inputs": {
-        "tdb": 30,
-        "tr": 30,
-        "v": 0.1,
-        "rh": 50,
-        "met": 1.2,
-        "clo": 0.5
-      },
-      "outputs": {
-        "disc": 1.6,
-        "pmv_gagge": 1.5,
-        "pmv_set": 1.4
-      }
-    },
-    {
-      "inputs": {
-        "tdb": 28,
-        "tr": 28,
-        "v": 0.4,
-        "rh": 50,
-        "met": 1.2,
-        "clo": 0.5
-      },
-      "outputs": {
-        "disc": 0.8,
-        "pmv_gagge": 0.8,
-        "pmv_set": 0.5
-      }
-    },
-    {
-      "inputs": {
-        "tdb": 40,
-        "tr": 40,
-        "v": 1.1,
-        "rh": 50,
-        "met": 2,
-        "clo": 0.5,
-        "w_max": false
-      },
-      "outputs": {
-        "t_core": 37.9
-      }
-    },
-    {
-      "inputs": {
-        "tdb": 40,
-        "tr": 40,
-        "v": 1.1,
-        "rh": 50,
-        "met": 2,
-        "clo": 0.5,
-        "w_max": 0.2
-      },
-      "outputs": {
-        "t_core": 39.0
-      }
-    },
-    {
-      "inputs": {
-        "tdb": 45,
-        "tr": 45,
-        "v": 1.1,
-        "rh": 20,
-        "met": 3,
-        "clo": 0.2
-      },
-      "outputs": {
-        "e_rsw": 219.3,
-        "t_core": 38.0
-      }
-    },
-    {
-      "inputs": {
-        "tdb": 45,
-        "tr": 45,
-        "v": 1.1,
-        "rh": 20,
-        "met": 3,
-        "clo": 0.2,
-        "max_sweating": 300
-      },
-      "outputs": {
-        "e_rsw": 204.0
-      }
-    },
-    {
-      "inputs": {
-        "tdb": 45,
-        "tr": 45,
-        "v": 1.1,
-        "rh": 20,
-        "met": 3,
-        "clo": 0.2,
-        "max_skin_blood_flow": 60
-      },
-      "outputs": {
-        "t_core": 38.2
-      }
-    }
-  ]
+    "data": [
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "v": 1.1,
+                "rh": 50,
+                "met": 2,
+                "clo": 0.5
+            },
+            "outputs": {
+                "disc": 0.4,
+                "t_core": 37.0,
+                "e_skin": 44.8,
+                "m_rsw": 49.0,
+                "pmv_set": 0.1
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "v": 0.1,
+                "rh": 50,
+                "met": 1.2,
+                "clo": 0.5
+            },
+            "outputs": {
+                "disc": 0.3,
+                "t_core": 36.9,
+                "e_skin": 18.1,
+                "m_rsw": 14.6,
+                "pmv_set": 0.2
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 30,
+                "tr": 25,
+                "v": 0.1,
+                "rh": 50,
+                "met": 1.2,
+                "clo": 0.5
+            },
+            "outputs": {
+                "disc": 1.0,
+                "pmv_gagge": 0.9,
+                "pmv_set": 1.0,
+                "t_core": 36.9,
+                "e_skin": 28.7,
+                "m_rsw": 32.8
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 30,
+                "tr": 30,
+                "v": 0.1,
+                "rh": 50,
+                "met": 1.2,
+                "clo": 0.5
+            },
+            "outputs": {
+                "disc": 1.6,
+                "pmv_gagge": 1.5,
+                "pmv_set": 1.4,
+                "t_core": 36.9,
+                "e_skin": 40.0,
+                "m_rsw": 49.9
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 28,
+                "tr": 28,
+                "v": 0.4,
+                "rh": 50,
+                "met": 1.2,
+                "clo": 0.5
+            },
+            "outputs": {
+                "disc": 0.8,
+                "pmv_gagge": 0.8,
+                "pmv_set": 0.5,
+                "t_core": 36.9,
+                "e_skin": 28.6,
+                "m_rsw": 29.2
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 40,
+                "tr": 40,
+                "v": 1.1,
+                "rh": 50,
+                "met": 2,
+                "clo": 0.5,
+                "w_max": false
+            },
+            "outputs": {
+                "t_core": 37.9,
+                "e_skin": 102.6,
+                "m_rsw": 145.5,
+                "pmv_set": 3.0
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 40,
+                "tr": 40,
+                "v": 1.1,
+                "rh": 50,
+                "met": 2,
+                "clo": 0.5,
+                "w_max": 0.2
+            },
+            "outputs": {
+                "t_core": 39.0,
+                "e_skin": 49.3,
+                "m_rsw": 59.3,
+                "pmv_set": 2.5
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 45,
+                "tr": 45,
+                "v": 1.1,
+                "rh": 20,
+                "met": 3,
+                "clo": 0.2
+            },
+            "outputs": {
+                "e_rsw": 219.3,
+                "t_core": 38.0,
+                "e_skin": 229.7,
+                "m_rsw": 322.5,
+                "pmv_set": 2.6
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 45,
+                "tr": 45,
+                "v": 1.1,
+                "rh": 20,
+                "met": 3,
+                "clo": 0.2,
+                "max_sweating": 300
+            },
+            "outputs": {
+                "e_rsw": 204.0,
+                "t_core": 38.3,
+                "e_skin": 216.4,
+                "m_rsw": 300.0,
+                "pmv_set": 2.5
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 45,
+                "tr": 45,
+                "v": 1.1,
+                "rh": 20,
+                "met": 3,
+                "clo": 0.2,
+                "max_skin_blood_flow": 60
+            },
+            "outputs": {
+                "t_core": 38.2,
+                "e_skin": 245.3,
+                "m_rsw": 348.0,
+                "pmv_set": 2.4
+            }
+        }
+    ]
 }

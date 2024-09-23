@@ -1,158 +1,217 @@
 {
-  "information": {
-    "summary": "This file contains a series of validation tables for adaptive_ashrae() in pythermalcomfort, jsthermalcomfort, calcAdaptiveASHRAE() in R",
-    "version": "1.0.0",
-    "license": "MIT"
-  },
-  "tolerance": {
-    "tmp_cmf" : 0.1
-  },
-  "data": [
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": 19.6,
-        "tr": 19.6,
-        "t_running_mean": 17,
-        "v": 0.1
-      },
-      "outputs": {
-        "acceptability_80": true
-      }
+    "information": {
+        "summary": "This file contains a series of validation tables for adaptive_ashrae() in pythermalcomfort, jsthermalcomfort, calcAdaptiveASHRAE() in R",
+        "version": "1.0.0",
+        "license": "MIT"
     },
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": 19.6,
-        "tr": 19.6,
-        "t_running_mean": 17,
-        "v": 0.1
-      },
-      "outputs": {
-        "acceptability_90": false
-      }
+    "tolerance": {
+        "tmp_cmf": 0.1
     },
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": 19.6,
-        "tr": 19.6,
-        "t_running_mean": 25,
-        "v": 0.1
-      },
-      "outputs": {
-        "acceptability_80": false
-      }
-    },
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": 26,
-        "tr": 26,
-        "t_running_mean": 16,
-        "v": 0.1
-      },
-      "outputs": {
-        "acceptability_80": true
-      }
-    },
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": 26,
-        "tr": 26,
-        "t_running_mean": 16,
-        "v": 0.1
-      },
-      "outputs": {
-        "acceptability_90": false
-      }
-    },
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": 30,
-        "tr": 26,
-        "t_running_mean": 16,
-        "v": 0.1
-      },
-      "outputs": {
-        "acceptability_80": false
-      }
-    },
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": 25,
-        "tr": 25,
-        "t_running_mean": 23,
-        "v": 0.1
-      },
-      "outputs": {
-        "acceptability_80": true
-      }
-    },
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": 25,
-        "tr": 25,
-        "t_running_mean": 23,
-        "v": 0.1
-      },
-      "outputs": {
-        "acceptability_90": true
-      }
-    },
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": 77,
-        "tr": 77,
-        "t_running_mean": 68,
-        "v": 0.3,
-        "units": "ip"
-      },
-      "outputs": {
-        "tmp_cmf": 75.2
-      }
-    },
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": 25,
-        "tr": 25,
-        "t_running_mean": [9, 10],
-        "v": 0.1
-      },
-      "outputs": {
-        "tmp_cmf": [null, 20.9],
-        "tmp_cmf_80_low": [null, 17.4],
-        "tmp_cmf_80_up": [null, 24.4],
-        "tmp_cmf_90_low": [null, 18.4],
-        "tmp_cmf_90_up": [null, 23.4],
-        "acceptability_80": [false, false],
-        "acceptability_90": [false, false]
-      }
-    },
-    {
-      "source": "test_adaptive_ashrae.py",
-      "inputs": {
-        "tdb": [77, 74],
-        "tr": 77,
-        "t_running_mean": [48, 68],
-        "v": 0.3,
-        "units": "ip"
-      },
-      "outputs": {
-        "tmp_cmf": [null, 75.2],
-        "tmp_cmf_80_low": [null, 68.9],
-        "tmp_cmf_80_up": [null, 81.5],
-        "tmp_cmf_90_low": [null, 70.7],
-        "tmp_cmf_90_up": [null, 79.7],
-        "acceptability_80": [false, true],
-        "acceptability_90": [false, true]
-      }
-    }
-  ]
+    "data": [
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": 19.6,
+                "tr": 19.6,
+                "t_running_mean": 17,
+                "v": 0.1
+            },
+            "outputs": {
+                "acceptability_80": true,
+                "tmp_cmf": 23.1
+            }
+        },
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": 19.6,
+                "tr": 19.6,
+                "t_running_mean": 17,
+                "v": 0.1
+            },
+            "outputs": {
+                "acceptability_90": false,
+                "tmp_cmf": 23.1
+            }
+        },
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": 19.6,
+                "tr": 19.6,
+                "t_running_mean": 25,
+                "v": 0.1
+            },
+            "outputs": {
+                "acceptability_80": false,
+                "tmp_cmf": 25.6
+            }
+        },
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": 26,
+                "tr": 26,
+                "t_running_mean": 16,
+                "v": 0.1
+            },
+            "outputs": {
+                "acceptability_80": true,
+                "tmp_cmf": 22.8
+            }
+        },
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": 26,
+                "tr": 26,
+                "t_running_mean": 16,
+                "v": 0.1
+            },
+            "outputs": {
+                "acceptability_90": false,
+                "tmp_cmf": 22.8
+            }
+        },
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": 30,
+                "tr": 26,
+                "t_running_mean": 16,
+                "v": 0.1
+            },
+            "outputs": {
+                "acceptability_80": false,
+                "tmp_cmf": 22.8
+            }
+        },
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "t_running_mean": 23,
+                "v": 0.1
+            },
+            "outputs": {
+                "acceptability_80": true,
+                "tmp_cmf": 24.9
+            }
+        },
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "t_running_mean": 23,
+                "v": 0.1
+            },
+            "outputs": {
+                "acceptability_90": true,
+                "tmp_cmf": 24.9
+            }
+        },
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": 77,
+                "tr": 77,
+                "t_running_mean": 68,
+                "v": 0.3,
+                "units": "ip"
+            },
+            "outputs": {
+                "tmp_cmf": 75.2
+            }
+        },
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "t_running_mean": [
+                    9,
+                    10
+                ],
+                "v": 0.1
+            },
+            "outputs": {
+                "tmp_cmf": [
+                    null,
+                    20.9
+                ],
+                "tmp_cmf_80_low": [
+                    null,
+                    17.4
+                ],
+                "tmp_cmf_80_up": [
+                    null,
+                    24.4
+                ],
+                "tmp_cmf_90_low": [
+                    null,
+                    18.4
+                ],
+                "tmp_cmf_90_up": [
+                    null,
+                    23.4
+                ],
+                "acceptability_80": [
+                    false,
+                    false
+                ],
+                "acceptability_90": [
+                    false,
+                    false
+                ]
+            }
+        },
+        {
+            "source": "test_adaptive_ashrae.py",
+            "inputs": {
+                "tdb": [
+                    77,
+                    74
+                ],
+                "tr": 77,
+                "t_running_mean": [
+                    48,
+                    68
+                ],
+                "v": 0.3,
+                "units": "ip"
+            },
+            "outputs": {
+                "tmp_cmf": [
+                    null,
+                    75.2
+                ],
+                "tmp_cmf_80_low": [
+                    null,
+                    68.9
+                ],
+                "tmp_cmf_80_up": [
+                    null,
+                    81.5
+                ],
+                "tmp_cmf_90_low": [
+                    null,
+                    70.7
+                ],
+                "tmp_cmf_90_up": [
+                    null,
+                    79.7
+                ],
+                "acceptability_80": [
+                    false,
+                    true
+                ],
+                "acceptability_90": [
+                    false,
+                    true
+                ]
+            }
+        }
+    ]
 }
