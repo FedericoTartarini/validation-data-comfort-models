@@ -62,7 +62,7 @@ def check_json_format(json_data, json_file, fill_miss_output):
     if "data" not in json_data:
         inform.append("key 'data' is missing\n")
 
-    # obtain tolerance 和 data
+    # obtain tolerance and data
     tolerance = json_data.get("tolerance", None)
     data = json_data.get("data", [])
 
