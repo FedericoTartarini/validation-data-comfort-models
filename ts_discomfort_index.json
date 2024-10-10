@@ -9,6 +9,36 @@
   },
   "data": [
     {
+      "inputs": {
+        "tdb": [21, 23.5, 29, 32, 35, 40],
+        "rh": 50
+      },
+      "outputs": {
+        "di": [19.2, 21.0, 25.0, 27.2, 29.4, 33.0],
+        "discomfort_condition": [
+          "No discomfort",
+          "Less than 50% feels discomfort",
+          "More than 50% feels discomfort",
+          "Most of the population feels discomfort",
+          "Everyone feels severe stress",
+          "State of medical emergency"
+        ]
+      }
+    },
+    {
+      "inputs": {
+        "tdb": [35, 35],
+        "rh": [10, 90]
+      },
+      "outputs": {
+        "di": [24.9, 33.9],
+        "discomfort_condition": [
+          "More than 50% feels discomfort",
+          "State of medical emergency"
+        ]
+      }
+    },
+    {
       "execute_in_R": false,
       "inputs": {
         "tdb": 21,
@@ -85,7 +115,7 @@
         "discomfort_condition": "More than 50% feels discomfort"
       }
     },
-    { 
+    {
       "execute_in_R": false,
       "inputs": {
         "tdb": 35,
@@ -98,3 +128,4 @@
     }
   ]
 }
+
