@@ -23,6 +23,7 @@
         "PPD_vg": 13.0,
         "Acceptability": false
       }
+      "execute_in_R": true
     },
     {
       "inputs": {
@@ -38,6 +39,7 @@
         "PPD_vg": 12.6,
         "Acceptability": false
       }
+      "execute_in_R": true
     },
     {
       "inputs": {
@@ -53,6 +55,7 @@
         "PPD_vg": 1.7,
         "Acceptability": true
       }
+      "execute_in_R": true
     }
   ]
 }
