@@ -57,7 +57,7 @@
     {
       "execute_in_R": false,
       "inputs": {
-        "units"："ip"
+        "units": "ip"
       }
     }
   ]
