@@ -16,14 +16,14 @@
         "rh": 50,
         "met": 1.2,
         "clo": 0.5,
-        "delta_t": 3.8889,
-        "units": "ip"
+        "delta_t": 3.8889
       },
       "outputs": {
         "PPD_vg": 13.0,
         "Acceptability": false
       },
-      "execute_in_R": false
+      "execute_in_R": false,
+      "units": "ip"
     },
     {
       "inputs": {
@@ -39,7 +39,7 @@
         "PPD_vg": 12.6,
         "Acceptability": false
       },
-      "execute_in_R": false
+      "execute_in_R": true
     },
     {
       "inputs": {
@@ -55,7 +55,7 @@
         "PPD_vg": 1.7,
         "Acceptability": true
       },
-      "execute_in_R": false
+      "execute_in_R": true
     }
   ]
 }
