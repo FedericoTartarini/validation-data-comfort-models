@@ -5,38 +5,127 @@
     "license": "MIT"
   },
   "tolerance": {
-    "di" : 0.1
+    "di": 0.1
   },
   "data": [
     {
       "inputs": {
-            "tdb": [21, 23.5, 29, 32, 35, 40],
-            "rh": 50
-        },
-        "outputs": {
-            "di": [19.2, 21.0, 25.0, 27.2, 29.4, 33.0],
-            "discomfort_condition": [
-                "No discomfort",
-                "Less than 50% feels discomfort",
-                "More than 50% feels discomfort",
-                "Most of the population feels discomfort",
-                "Everyone feels severe stress",
-                "State of medical emergency"
-            ]
-        }
+        "tdb": [21, 23.5, 29, 32, 35, 40],
+        "rh": 50
+      },
+      "outputs": {
+        "di": [19.2, 21.0, 25.0, 27.2, 29.4, 33.0],
+        "discomfort_condition": [
+          "No discomfort",
+          "Less than 50% feels discomfort",
+          "More than 50% feels discomfort",
+          "Most of the population feels discomfort",
+          "Everyone feels severe stress",
+          "State of medical emergency"
+        ]
+      }
     },
     {
-        "inputs": {
-            "tdb": [35, 35],
-            "rh": [10, 90]
-        },
-        "outputs": {
-            "di": [24.9, 33.9],
-            "discomfort_condition": [
-                "More than 50% feels discomfort",
-                "State of medical emergency"
-            ]
-        }
+      "inputs": {
+        "tdb": [35, 35],
+        "rh": [10, 90]
+      },
+      "outputs": {
+        "di": [24.9, 33.9],
+        "discomfort_condition": [
+          "More than 50% feels discomfort",
+          "State of medical emergency"
+        ]
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 21,
+        "rh": 50
+      },
+      "outputs": {
+        "di": 19.2,
+        "discomfort_condition": "No discomfort"
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 23.5,
+        "rh": 50
+      },
+      "outputs": {
+        "di": 21.0,
+        "discomfort_condition": "Less than 50% feels discomfort"
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 29,
+        "rh": 50
+      },
+      "outputs": {
+        "di": 25.0,
+        "discomfort_condition": "More than 50% feels discomfort"
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 32,
+        "rh": 50
+      },
+      "outputs": {
+        "di": 27.2,
+        "discomfort_condition": "Most of the population feels discomfort"
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 35,
+        "rh": 50
+      },
+      "outputs": {
+        "di": 29.4,
+        "discomfort_condition": "Everyone feels severe stress"
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 40,
+        "rh": 50
+      },
+      "outputs": {
+        "di": 33.0,
+        "discomfort_condition": "State of medical emergency"
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 35,
+        "rh": 10
+      },
+      "outputs": {
+        "di": 24.9,
+        "discomfort_condition": "More than 50% feels discomfort"
+      }
+    },
+    {
+      "execute_in_R": false,
+      "inputs": {
+        "tdb": 35,
+        "rh": 90
+      },
+      "outputs": {
+        "di": 33.9,
+        "discomfort_condition": "State of medical emergency"
+      }
     }
-]
+  ]
 }
+
