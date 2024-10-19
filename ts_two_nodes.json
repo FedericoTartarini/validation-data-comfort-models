@@ -10,6 +10,7 @@
         "e_skin": 2,
         "m_rsw": 0.001,
         "pmv_set": 0.1,
+        "pmv_gagge": 0.1,
         "w": 0.02,
         "disc": 0.1
     },
