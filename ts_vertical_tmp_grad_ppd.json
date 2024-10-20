@@ -9,6 +9,7 @@
   },
   "data": [
     {
+      "execute_in_R": false,
       "inputs": {
         "tdb": 77,
         "tr": 77,
@@ -16,7 +17,7 @@
         "rh": 50,
         "met": 1.2,
         "clo": 0.5,
-        "delta_t": 3.8889,
+        "vertical_tmp_grad": 3.8889,
         "units": "ip"
       },
       "outputs": {
@@ -32,7 +33,7 @@
         "rh": 50,
         "met": 1.2,
         "clo": 0.5,
-        "delta_t": 7
+        "vertical_tmp_grad": 7
       },
       "outputs": {
         "PPD_vg": 12.6,
@@ -47,7 +48,7 @@
         "rh": 50,
         "met": 1.2,
         "clo": 0.5,
-        "delta_t": 4
+        "vertical_tmp_grad": 4
       },
       "outputs": {
         "PPD_vg": 1.7,
