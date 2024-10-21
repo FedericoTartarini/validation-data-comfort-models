@@ -57,7 +57,7 @@
       "inputs": {
         "tdb": 0,
         "v": 0.1,
-        "round": true
+        "round_output": true
       },
       "outputs": {
         "wci": 518.6
@@ -67,7 +67,7 @@
       "inputs": {
         "tdb": 0,
         "v": 0.1,
-        "round": false
+        "round_output": false
       },
       "outputs": {
         "wci": 518.587
