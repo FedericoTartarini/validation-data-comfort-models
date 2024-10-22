@@ -10,7 +10,7 @@
         "d_lim_loss_95": 1,
         "d_lim_t_re": 1,
         "water_loss": 5,
-        "water_loss_watt": 0.1
+        "water_loss_watt": 1
     },
     "data": [
         {
