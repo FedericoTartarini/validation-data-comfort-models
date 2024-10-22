@@ -1,6 +1,6 @@
 {
   "information": {
-    "summary": "This file contains a series of validation tables for the pet_steady() function in the pythermalcomf and jsthermalcomf.",
+    "summary": "This file contains a series of validation tables for the pet_steady() function in the pythermalcomfort and jsthermalcomfort.",
     "version": "1.0.0",
     "license": "MIT"
   },
