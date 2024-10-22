@@ -174,7 +174,7 @@
                 "tdb": 35,
                 "tr": 35,
                 "acclimatized": 0,
-                "posture": 1,
+                "posture": "sitting",
                 "rh": 53.3,
                 "v": 1,
                 "met": 2.58,
@@ -198,7 +198,7 @@
             "inputs": {
                 "tdb": 43,
                 "tr": 43,
-                "posture": 1,
+                "posture": "sitting",
                 "rh": 34.7,
                 "v": 0.3,
                 "met": 1.77,
@@ -369,7 +369,7 @@
                     0.5,
                     0.5
                 ],
-                "posture": 1
+                "posture": "sitting"
             },
             "outputs": {
                 "t_re": [
@@ -466,7 +466,7 @@
                     0.5,
                     1.1
                 ],
-                "posture": 1
+                "posture": "sitting"
             },
             "outputs": {
                 "t_re": [
