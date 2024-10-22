@@ -5,7 +5,7 @@
     "license": "MIT"
   },
   "tolerance": {
-    "cooling_effect": 0.1
+    "ce": 0.1
   },
   "data": [
     {
@@ -18,7 +18,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -31,7 +31,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 8.19
+        "ce": 8.19
       }
     },
     {
@@ -44,7 +44,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 10.94
+        "ce": 10.94
       }
     },
     {
@@ -57,7 +57,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 12.54
+        "ce": 12.54
       }
     },
     {
@@ -70,7 +70,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -83,7 +83,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 8.05
+        "ce": 8.05
       }
     },
     {
@@ -96,7 +96,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 10.77
+        "ce": 10.77
       }
     },
     {
@@ -109,7 +109,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 12.35
+        "ce": 12.35
       }
     },
     {
@@ -122,7 +122,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -135,7 +135,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 7.91
+        "ce": 7.91
       }
     },
     {
@@ -148,7 +148,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 10.6
+        "ce": 10.6
       }
     },
     {
@@ -161,7 +161,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 12.16
+        "ce": 12.16
       }
     },
     {
@@ -174,7 +174,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -187,7 +187,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 5.04
+        "ce": 5.04
       }
     },
     {
@@ -200,7 +200,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 6.62
+        "ce": 6.62
       }
     },
     {
@@ -213,7 +213,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 7.51
+        "ce": 7.51
       }
     },
     {
@@ -226,7 +226,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -239,7 +239,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 4.84
+        "ce": 4.84
       }
     },
     {
@@ -252,7 +252,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 6.37
+        "ce": 6.37
       }
     },
     {
@@ -265,7 +265,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 7.24
+        "ce": 7.24
       }
     },
     {
@@ -278,7 +278,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -291,7 +291,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 4.64
+        "ce": 4.64
       }
     },
     {
@@ -304,7 +304,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 6.12
+        "ce": 6.12
       }
     },
     {
@@ -317,7 +317,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 6.97
+        "ce": 6.97
       }
     },
     {
@@ -330,7 +330,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -343,7 +343,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 3.64
+        "ce": 3.64
       }
     },
     {
@@ -356,7 +356,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 4.32
+        "ce": 4.32
       }
     },
     {
@@ -369,7 +369,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 4.69
+        "ce": 4.69
       }
     },
     {
@@ -382,7 +382,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -395,7 +395,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 3.55
+        "ce": 3.55
       }
     },
     {
@@ -408,7 +408,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 4.25
+        "ce": 4.25
       }
     },
     {
@@ -421,7 +421,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 4.61
+        "ce": 4.61
       }
     },
     {
@@ -434,7 +434,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -447,7 +447,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 3.4
+        "ce": 3.4
       }
     },
     {
@@ -460,7 +460,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 4.1
+        "ce": 4.1
       }
     },
     {
@@ -473,7 +473,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "cooling_effect": 4.46
+        "ce": 4.46
       }
     },
     {
@@ -486,7 +486,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -499,7 +499,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 2.17
+        "ce": 2.17
       }
     },
     {
@@ -512,7 +512,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 1.85
+        "ce": 1.85
       }
     },
     {
@@ -525,7 +525,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 1.63
+        "ce": 1.63
       }
     },
     {
@@ -538,7 +538,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 1.42
+        "ce": 1.42
       }
     },
     {
@@ -551,7 +551,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 2.44
+        "ce": 2.44
       }
     },
     {
@@ -564,7 +564,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 2.81
+        "ce": 2.81
       }
     },
     {
@@ -577,7 +577,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 0.67
+        "ce": 0.67
       }
     },
     {
@@ -590,7 +590,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 2.93
+        "ce": 2.93
       }
     },
     {
@@ -603,7 +603,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -616,7 +616,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 2.13
+        "ce": 2.13
       }
     },
     {
@@ -629,7 +629,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 2.06
+        "ce": 2.06
       }
     },
     {
@@ -642,7 +642,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 2.29
+        "ce": 2.29
       }
     },
     {
@@ -655,7 +655,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 2.84
+        "ce": 2.84
       }
     },
     {
@@ -668,7 +668,7 @@
         "clo": 0.6
       },
       "outputs": {
-        "cooling_effect": 3.5
+        "ce": 3.5
       }
     },
     {
@@ -681,7 +681,7 @@
         "clo": 0.3
       },
       "outputs": {
-        "cooling_effect": 2.41
+        "ce": 2.41
       }
     },
     {
@@ -694,7 +694,7 @@
         "clo": 1
       },
       "outputs": {
-        "cooling_effect": 2.05
+        "ce": 2.05
       }
     },
     {
@@ -707,7 +707,7 @@
         "clo": 1
       },
       "outputs": {
-        "cooling_effect": 0
+        "ce": 0
       }
     },
     {
@@ -722,7 +722,7 @@
         "units": "IP"
       },
       "outputs": {
-        "cooling_effect": 3.95
+        "ce": 3.95
       }
     }
   ]

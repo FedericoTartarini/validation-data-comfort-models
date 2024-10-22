@@ -1,11 +1,11 @@
 {
   "information": {
-    "summary": "This file contains a series of validation tables for the pet_steady() function in the pythermalcomf and jsthermalcomf.",
+    "summary": "This file contains a series of validation tables for the pet_steady() function in the pythermalcomfort and jsthermalcomfort.",
     "version": "1.0.0",
     "license": "MIT"
   },
   "tolerance": {
-    "PET": 0.1
+    "pet": 0.1
   },
   "data": [
     {
@@ -18,7 +18,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "PET": 18.85
+        "pet": 18.85
       }
     },
     {
@@ -31,7 +31,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "PET": 30.6
+        "pet": 30.6
       }
     },
     {
@@ -44,7 +44,7 @@
         "clo": 0.5
       },
       "outputs": {
-        "PET": 17.16
+        "pet": 17.16
       }
     },
     {
@@ -57,7 +57,7 @@
         "clo": 0.9
       },
       "outputs": {
-        "PET": 21.08
+        "pet": 21.08
       }
     },
     {
@@ -70,7 +70,7 @@
         "clo": 0.9
       },
       "outputs": {
-        "PET": 19.92
+        "pet": 19.92
       }
     },
     {
@@ -83,7 +83,7 @@
         "clo": 0.9
       },
       "outputs": {
-        "PET": 7.82
+        "pet": 7.82
       }
     },
     {
@@ -96,7 +96,7 @@
         "clo": 0.9
       },
       "outputs": {
-        "PET": -13.38
+        "pet": -13.38
       }
     },
     {
@@ -109,7 +109,7 @@
         "clo": 0.9
       },
       "outputs": {
-        "PET": 44.63
+        "pet": 44.63
       }
     },
     {
@@ -122,7 +122,7 @@
         "clo": 0.9
       },
       "outputs": {
-        "PET": 32.21
+        "pet": 32.21
       }
     }
   ]
