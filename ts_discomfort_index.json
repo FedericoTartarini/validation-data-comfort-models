@@ -27,6 +27,7 @@
       }
     },
     {
+      "execute_in_R": false,
       "inputs": {
         "tdb": [35, 35],
         "rh": [10, 90]
@@ -40,7 +41,6 @@
       }
     },
     {
-      "execute_in_R": false,
       "inputs": {
         "tdb": 21,
         "rh": 50
@@ -51,7 +51,6 @@
       }
     },
     {
-      "execute_in_R": false,
       "inputs": {
         "tdb": 23.5,
         "rh": 50
@@ -62,7 +61,6 @@
       }
     },
     {
-      "execute_in_R": false,
       "inputs": {
         "tdb": 29,
         "rh": 50
@@ -73,7 +71,6 @@
       }
     },
     {
-      "execute_in_R": false,
       "inputs": {
         "tdb": 32,
         "rh": 50
@@ -84,7 +81,6 @@
       }
     },
     {
-      "execute_in_R": false,
       "inputs": {
         "tdb": 35,
         "rh": 50
@@ -95,7 +91,6 @@
       }
     },
     {
-      "execute_in_R": false,
       "inputs": {
         "tdb": 40,
         "rh": 50
@@ -106,7 +101,6 @@
       }
     },
     {
-      "execute_in_R": false,
       "inputs": {
         "tdb": 35,
         "rh": 10
@@ -117,7 +111,6 @@
       }
     },
     {
-      "execute_in_R": false,
       "inputs": {
         "tdb": 35,
         "rh": 90
