@@ -9,7 +9,6 @@
   },
   "data": [
     {
-      "execute_in_R": true,
       "inputs": {
         "tdb": 25,
         "tr": 25,
