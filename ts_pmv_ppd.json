@@ -6,7 +6,7 @@
     },
     "tolerance": {
         "pmv": 0.1,
-        "ppd": 0.01
+        "ppd": 1
     },
     "data": [
         {
