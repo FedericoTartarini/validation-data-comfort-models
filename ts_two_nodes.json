@@ -8,7 +8,7 @@
         "t_core": 0.1,
         "t_skin": 0.1,
         "e_skin": 2,
-        "m_rsw": 0.001,
+        "m_rsw": 1,
         "pmv_set": 0.1,
         "pmv_gagge": 0.1,
         "w": 0.02,
