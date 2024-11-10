@@ -13,19 +13,6 @@
         "tdb": 10,
         "tr": 10,
         "rh": 10,
-        "vr": 0.1,
-        "met": 1,
-        "clo": 0.5
-      },
-      "outputs": {
-        "ce": 0
-      }
-    },
-    {
-      "inputs": {
-        "tdb": 10,
-        "tr": 10,
-        "rh": 10,
         "vr": 1.1,
         "met": 1,
         "clo": 0.5
@@ -672,6 +659,7 @@
       }
     },
     {
+      "execute_in_R": false,
       "inputs": {
         "tdb": 25,
         "tr": 25,
@@ -685,6 +673,7 @@
       }
     },
     {
+      "execute_in_R": false,
       "inputs": {
         "tdb": 25,
         "tr": 25,
@@ -698,6 +687,7 @@
       }
     },
     {
+      "execute_in_R": false,
       "inputs": {
         "tdb": 0,
         "tr": 80,
