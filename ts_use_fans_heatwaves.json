@@ -6,7 +6,7 @@
   },
   "tolerance": {
     "e_skin": 2,
-    "q_skin": 2,
+    "q_skin": 0.1,
     "t_core": 0.1,
     "t_skin": 0.1,
     "e_rsw": 2,
@@ -61,7 +61,7 @@
         "body_position": "sitting"
       },
       "outputs": {
-        "q_skin": 37.6
+        "q_skin": 37.5
       }
     },
     {
