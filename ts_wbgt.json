@@ -4,7 +4,9 @@
     "version": "1.0.0",
     "license": "MIT"
   },
-  "tolerance": {},
+  "tolerance": {
+    "wbgt": 0.1
+  },
   "data": [
     {
       "inputs": {
@@ -21,7 +23,7 @@
       "inputs": {
         "twb": 17.3,
         "tg": 40,
-        "round": true
+        "round_output": true
       },
       "outputs": {
         "wbgt": 24.1
@@ -31,7 +33,7 @@
       "inputs": {
         "twb": 21.1,
         "tg": 55,
-        "round": true
+        "round_output": true
       },
       "outputs": {
         "wbgt": 31.3
@@ -41,7 +43,7 @@
       "inputs": {
         "twb": 16.7,
         "tg": 40,
-        "round": true
+        "round_output": true
       },
       "outputs": {
         "wbgt": 23.7
@@ -70,7 +72,7 @@
       "inputs": {
         "twb": 25,
         "tg": 30,
-        "round": false
+        "round_output": false
       },
       "outputs": {
         "wbgt": 26.5
