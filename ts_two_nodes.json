@@ -8,6 +8,7 @@
         "t_core": 0.1,
         "t_skin": 0.1,
         "e_skin": 2,
+        "e_rsw": 2,
         "m_rsw": 1,
         "pmv_set": 0.1,
         "pmv_gagge": 0.1,
@@ -164,7 +165,7 @@
                 "clo": 0.2
             },
             "outputs": {
-                "e_rsw": 219.3,
+                "e_rsw": 244.9,
                 "t_core": 38.0,
                 "e_skin": 229.7,
                 "m_rsw": 322.5,
