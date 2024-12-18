@@ -44,7 +44,7 @@
         "rh": 20,
         "met": 0.7,
         "clo": 0.3,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "heat_strain_w": false
@@ -58,7 +58,7 @@
         "rh": 20,
         "met": 0.7,
         "clo": 0.5,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "q_skin": 37.5
@@ -72,7 +72,7 @@
         "rh": 20,
         "met": 0.7,
         "clo": 0.7,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "m_rsw": 68.6
@@ -86,7 +86,7 @@
         "rh": 20,
         "met": 1.3,
         "clo": 0.3,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "m_rsw": 118.5
@@ -100,7 +100,7 @@
         "rh": 20,
         "met": 1.3,
         "clo": 0.5,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "m_rsw": 117.3
@@ -114,7 +114,7 @@
         "rh": 20,
         "met": 1.3,
         "clo": 0.7,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "m_rsw": 116.4
@@ -128,7 +128,7 @@
         "rh": 20,
         "met": 2,
         "clo": 0.3,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "heat_strain_w": false
@@ -142,7 +142,7 @@
         "rh": 20,
         "met": 2,
         "clo": 0.5,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "w": 0.5
@@ -156,7 +156,7 @@
         "rh": 20,
         "met": 2,
         "clo": 0.7,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "t_skin": 36.2
@@ -170,7 +170,7 @@
         "rh": 40,
         "met": 0.7,
         "clo": 0.3,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "heat_strain_blood_flow": false
@@ -184,7 +184,7 @@
         "rh": 40,
         "met": 0.7,
         "clo": 0.5,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "t_core": 36.9
@@ -198,7 +198,7 @@
         "rh": 40,
         "met": 0.7,
         "clo": 0.7,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "m_rsw": 73.9
@@ -212,7 +212,7 @@
         "rh": 40,
         "met": 1.3,
         "clo": 0.3,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "m_rsw": 126.8
@@ -226,7 +226,7 @@
         "rh": 40,
         "met": 1.3,
         "clo": 0.5,
-        "body_position": "sitting"
+        "position": "sitting"
       },
       "outputs": {
         "e_rsw": 84.9
