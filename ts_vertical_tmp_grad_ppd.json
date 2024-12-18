@@ -17,7 +17,7 @@
         "rh": 50,
         "met": 1.2,
         "clo": 0.5,
-        "vertical_tmp_grad": 3.8889,
+        "vertical_tmp_grad": 3.8889
       },
       "outputs": {
         "PPD_vg": 13.0,
