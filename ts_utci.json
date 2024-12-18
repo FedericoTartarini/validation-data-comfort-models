@@ -117,8 +117,7 @@
         "tr": 27,
         "rh": 50,
         "v": 1,
-        "units": "si",
-        "return_stress_category": true
+        "units": "si"
       },
       "outputs": {
         "utci": 29.6,
@@ -131,8 +130,7 @@
         "tr": 9,
         "rh": 50,
         "v": 1,
-        "units": "si",
-        "return_stress_category": true
+        "units": "si"
       },
       "outputs": {
         "utci": 8.7,
@@ -146,8 +144,7 @@
         "tr": [27, 25],
         "v": [1, 1],
         "rh": [50, 50],
-        "units": "si",
-        "return_stress_category": true
+        "units": "si"
       },
       "outputs": {
         "utci": [25.2, 24.6],
