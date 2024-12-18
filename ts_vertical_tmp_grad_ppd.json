@@ -20,7 +20,7 @@
       },
       "outputs": {
         "ppd_vg": 12.6,
-        "Acceptability": false
+        "acceptability": false
       }
     },
     {
@@ -35,7 +35,7 @@
       },
       "outputs": {
         "ppd_vg": 1.7,
-        "Acceptability": true
+        "acceptability": true
       }
     }
   ]
