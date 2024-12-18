@@ -19,7 +19,7 @@
         "f_svv": 0.2,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 64.9,
@@ -36,7 +36,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 43.3,
@@ -53,7 +53,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 63.2,
@@ -70,7 +70,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 65.3,
@@ -87,7 +87,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 63.1,
@@ -104,7 +104,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 62.4,
@@ -121,7 +121,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 60.5,
@@ -138,7 +138,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 57.2,
@@ -155,7 +155,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 51.7,
@@ -172,7 +172,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 49.0,
@@ -189,7 +189,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "Standing"
+        "posture": "standing"
       },
       "outputs": {
         "erf": 59.3,
@@ -206,7 +206,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 27.4,
@@ -223,7 +223,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 41.1,
@@ -240,7 +240,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 68.5,
@@ -257,7 +257,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 11.0,
@@ -274,7 +274,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 32.9,
@@ -291,7 +291,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 76.7,
@@ -308,7 +308,7 @@
         "f_svv": 0.1,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 29.3,
@@ -325,7 +325,7 @@
         "f_svv": 0.3,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 42.1,
@@ -342,7 +342,7 @@
         "f_svv": 0.7,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 67.5,
@@ -359,7 +359,7 @@
         "f_svv": 0.5,
         "f_bes": 0.1,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 36.4,
@@ -376,7 +376,7 @@
         "f_svv": 0.5,
         "f_bes": 0.3,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 45.6,
@@ -393,7 +393,7 @@
         "f_svv": 0.5,
         "f_bes": 0.7,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 64.0,
@@ -410,7 +410,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.3,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 23.5,
@@ -427,7 +427,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.5,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 39.1,
@@ -444,7 +444,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.9,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 70.4,
@@ -461,7 +461,7 @@
         "f_svv": 0.5,
         "f_bes": 0.5,
         "asw": 0.7,
-        "posture": "seated"
+        "posture": "sitting"
       },
       "outputs": {
         "erf": 54.8,
