@@ -9,22 +9,6 @@
   },
   "data": [
     {
-      "execute_in_R": false,
-      "inputs": {
-        "tdb": 77,
-        "tr": 77,
-        "vr": 0.328,
-        "rh": 50,
-        "met": 1.2,
-        "clo": 0.5,
-        "vertical_tmp_grad": 3.8889
-      },
-      "outputs": {
-        "PPD_vg": 13.0,
-        "Acceptability": false
-      }
-    },
-    {
       "inputs": {
         "tdb": 25,
         "tr": 25,
