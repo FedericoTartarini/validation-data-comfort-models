@@ -20,8 +20,7 @@
     {
       "inputs": {
         "tdb": 77,
-        "rh": 50,
-        "units": "IP"
+        "rh": 50
       },
       "outputs": {
         "hi": 78.6
@@ -39,8 +38,7 @@
     {
       "inputs": {
         "tdb": 86,
-        "rh": 80,
-        "units": "IP"
+        "rh": 80
       },
       "outputs": {
         "hi": 99.8
