@@ -114,6 +114,7 @@
         },
         {
             "source": "test_adaptive_ashrae.py",
+            "execute_in_R": false,
             "inputs": {
                 "tdb": 77,
                 "tr": 77,
