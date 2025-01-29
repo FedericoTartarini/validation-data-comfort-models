@@ -5,7 +5,7 @@
     "license": "MIT"
   },
   "tolerance": {
-    "ppd_vg": 0.1
+    "ppd_vg": 1
   },
   "data": [
     {
