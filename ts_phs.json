@@ -10,7 +10,7 @@
         "d_lim_loss_95": 1,
         "d_lim_t_re": 1,
         "sweat_rate_gram": 10,
-        "water_loss_watt": 3
+        "sweat_rate_watt": 3
     },
     "data": [
         {
@@ -61,7 +61,7 @@
                     480,
                     480
                 ],
-                "water_loss_watt": [
+                "sweat_rate_watt": [
                     266.1,
                     266.1
                 ],
@@ -92,7 +92,7 @@
                 "t_sk": 35.3,
                 "t_cr_eq": 37.1,
                 "t_sk_t_cr_wg": 0.24,
-                "water_loss_watt": 266.1
+                "sweat_rate_watt": 266.1
             }
         },
         {
@@ -116,7 +116,7 @@
                 "t_sk": 36.4,
                 "t_cr_eq": 37.1,
                 "t_sk_t_cr_wg": 0.1,
-                "water_loss_watt": 276.9
+                "sweat_rate_watt": 276.9
             }
         },
         {
@@ -140,7 +140,7 @@
                 "t_sk": 35.7,
                 "t_cr_eq": 37.1,
                 "t_sk_t_cr_wg": 0.22,
-                "water_loss_watt": 312.5
+                "sweat_rate_watt": 312.5
             }
         },
         {
@@ -165,7 +165,7 @@
                 "t_sk": 37.8,
                 "t_cr_eq": 37.1,
                 "t_sk_t_cr_wg": 0.1,
-                "water_loss_watt": 250.0
+                "sweat_rate_watt": 250.0
             }
         },
         {
@@ -190,7 +190,7 @@
                 "t_sk": 34.8,
                 "t_cr_eq": 37.1,
                 "t_sk_t_cr_wg": 0.24,
-                "water_loss_watt": 165.7
+                "sweat_rate_watt": 165.7
             }
         },
         {
@@ -214,7 +214,7 @@
                 "t_sk": 35.3,
                 "t_cr_eq": 37.0,
                 "t_sk_t_cr_wg": 0.26,
-                "water_loss_watt": 293.6
+                "sweat_rate_watt": 293.6
             }
         },
         {
@@ -239,7 +239,7 @@
                 "t_sk": 36.1,
                 "t_cr_eq": 37.3,
                 "t_sk_t_cr_wg": 0.1,
-                "water_loss_watt": 295.7
+                "sweat_rate_watt": 295.7
             }
         },
         {
@@ -264,7 +264,7 @@
                 "t_sk": 36.7,
                 "t_cr_eq": 37.1,
                 "t_sk_t_cr_wg": 0.1,
-                "water_loss_watt": 213.9
+                "sweat_rate_watt": 213.9
             }
         },
         {
@@ -288,7 +288,7 @@
                 "t_sk": 35.5,
                 "t_cr_eq": 37.1,
                 "t_sk_t_cr_wg": 0.24,
-                "water_loss_watt": 290.4
+                "sweat_rate_watt": 290.4
             }
         },
         {
@@ -314,7 +314,7 @@
                 "t_sk": 35.5,
                 "t_cr_eq": 37.1,
                 "t_sk_t_cr_wg": 0.24,
-                "water_loss_watt": 231.5
+                "sweat_rate_watt": 231.5
             }
         },
         {
