@@ -1,0 +1,94 @@
+{
+  "information": {
+    "summary": "Validation tables for wind_chill_temperature() in pythermalcomfort and jsthermalcomfort. Reference values match pythermalcomfort 3.9.3.",
+    "version": "1.0.0",
+    "license": "MIT"
+  },
+  "tolerance": {
+    "wct": 0.1
+  },
+  "data": [
+    {
+      "inputs": {
+        "tdb": -40,
+        "v": 30
+      },
+      "outputs": {
+        "wct": -58.7
+      }
+    },
+    {
+      "inputs": {
+        "tdb": -20,
+        "v": 5
+      },
+      "outputs": {
+        "wct": -24.3
+      }
+    },
+    {
+      "inputs": {
+        "tdb": -20,
+        "v": 15
+      },
+      "outputs": {
+        "wct": -29.1
+      }
+    },
+    {
+      "inputs": {
+        "tdb": -20,
+        "v": 60
+      },
+      "outputs": {
+        "wct": -36.5
+      }
+    },
+    {
+      "inputs": {
+        "tdb": -10,
+        "v": 10
+      },
+      "outputs": {
+        "wct": -15.3
+      }
+    },
+    {
+      "inputs": {
+        "tdb": -5,
+        "v": 5.5
+      },
+      "outputs": {
+        "wct": -7.5
+      }
+    },
+    {
+      "inputs": {
+        "tdb": -5,
+        "v": 5.5,
+        "round_output": false
+      },
+      "outputs": {
+        "wct": -7.527
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 0,
+        "v": 0.1
+      },
+      "outputs": {
+        "wct": 5.3
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 0,
+        "v": 1.5
+      },
+      "outputs": {
+        "wct": 1.0
+      }
+    }
+  ]
+}
