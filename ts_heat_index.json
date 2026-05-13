@@ -1,6 +1,6 @@
 {
   "information": {
-    "summary": "This file contains a series of validation tables for the heat_index() function in pythermalcomfort, jsthermalcomfort.",
+    "summary": "This file contains a series of validation tables for the heat_index() function in pythermalcomfort, jsthermalcomfort. Heat-index rows validate the Rothfusz formula; consumers should disable input limiting (limit_inputs=False) when running these cases.",
     "version": "1.0.0",
     "license": "MIT"
   },
@@ -24,6 +24,60 @@
       },
       "outputs": {
         "hi": 37.7
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 27,
+        "rh": 30
+      },
+      "outputs": {
+        "hi": 26.4
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 28,
+        "rh": 50
+      },
+      "outputs": {
+        "hi": 28.4
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 32,
+        "rh": 60
+      },
+      "outputs": {
+        "hi": 37.1
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 35,
+        "rh": 80
+      },
+      "outputs": {
+        "hi": 56.5
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 40,
+        "rh": 40
+      },
+      "outputs": {
+        "hi": 48.3
+      }
+    },
+    {
+      "inputs": {
+        "tdb": 45,
+        "rh": 25
+      },
+      "outputs": {
+        "hi": 50.5
       }
     }
   ]
