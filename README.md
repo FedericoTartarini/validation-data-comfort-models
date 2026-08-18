@@ -8,6 +8,13 @@ This repository contains reference data to validate thermal comfort functions. I
 
 We realsed this cource code under a MIT Licence hence you can freely used this data to validate your functions.
 
+## Versioning
+
+Releases are tagged (e.g. `v1.0.0`) and documented in [CHANGELOG.md](CHANGELOG.md).
+Downstream projects should pin fixture URLs to a tag rather than `main` — a
+fixture change here can otherwise silently affect another repository's CI
+before anyone reviews it.
+
 ## Check JSON file
 When you update a JSON file, please run `check_json_files.py` to check the format of the file. This script ensures that the JSON structure adheres to the expected schema. To run the script, follow these steps:
 
