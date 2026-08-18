@@ -15,6 +15,52 @@ Downstream projects should pin fixture URLs to a tag rather than `main` — a
 fixture change here can otherwise silently affect another repository's CI
 before anyone reviews it.
 
+### Version numbering (SemVer)
+
+Tags follow `vMAJOR.MINOR.PATCH`:
+
+- **PATCH** (`v1.0.0` → `v1.0.1`): a fixture was corrected without changing
+  its meaning — a wrong reference value, a mislabeled boundary-test case, a
+  fixed typo. Existing consumers should be able to bump straight to it.
+- **MINOR** (`v1.0.0` → `v1.1.0`): a new JSON file was added, or new test
+  cases were added to an existing file, in a backwards-compatible way (i.e.
+  nothing existing was removed or renamed). Consumers not yet using the new
+  data are unaffected.
+- **MAJOR** (`v1.0.0` → `v2.0.0`): a breaking change — a key was renamed or
+  removed (e.g. the `sweat_rate_gram` → `sweat_loss_g` rename), the JSON
+  schema itself changed, or a file was renamed/deleted. Consumers must
+  update their code, not just bump the pin, when picking this up.
+
+When unsure which applies, prefer the smaller bump only if you're confident
+no consumer's assertions would need to change to keep passing; otherwise
+treat it as breaking.
+
+### How to cut a release
+
+1. Merge the change(s) into `main` as usual.
+2. Add an entry under `## [Unreleased]` in `CHANGELOG.md` as you go (or before
+   tagging, if it was missed) describing what changed and why — not just
+   which file, but what a consumer needs to know before bumping their pin.
+3. Decide the version bump (see above) and move the `[Unreleased]` entries
+   under a new `## [X.Y.Z] - YYYY-MM-DD` heading.
+4. Commit the changelog update:
+
+    ```bash
+    git add CHANGELOG.md
+    git commit -m "docs(changelog): release vX.Y.Z"
+    ```
+
+5. Tag and push:
+
+    ```bash
+    git tag -a vX.Y.Z -m "vX.Y.Z: <one-line summary>"
+    git push origin main --follow-tags
+    ```
+
+6. Let known consumers (e.g. `pythermalcomfort`) know a new tag exists —
+   ideally by opening a PR/issue there bumping the pin — so nobody keeps
+   running against an old tag once a newer one is available.
+
 ## Check JSON file
 When you update a JSON file, please run `check_json_files.py` to check the format of the file. This script ensures that the JSON structure adheres to the expected schema. To run the script, follow these steps:
 
