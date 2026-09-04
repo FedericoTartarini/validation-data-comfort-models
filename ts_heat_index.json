@@ -65,6 +65,46 @@
                 "hi": 52.3,
                 "stress_category": "danger"
             }
+        },
+        {
+            "inputs": {
+                "tdb": 27.262262,
+                "rh": 40
+            },
+            "outputs": {
+                "hi": 27.1,
+                "stress_category": "caution"
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 31.846847,
+                "rh": 40
+            },
+            "outputs": {
+                "hi": 32.1,
+                "stress_category": "extreme caution"
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 36.931932,
+                "rh": 40
+            },
+            "outputs": {
+                "hi": 41.1,
+                "stress_category": "danger"
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 42.137137,
+                "rh": 40
+            },
+            "outputs": {
+                "hi": 54.1,
+                "stress_category": "extreme danger"
+            }
         }
     ]
 }
