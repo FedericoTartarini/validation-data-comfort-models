@@ -125,13 +125,13 @@
                 "w_max": false
             },
             "outputs": {
-                "t_core": 37.9,
-                "e_skin": 102.6,
-                "m_rsw": 145.5,
-                "pmv_set": 3.0,
-                "t_skin": 37.2,
+                "t_core": 38.1,
+                "e_skin": 95.2,
+                "m_rsw": 133.6,
+                "pmv_set": 3.1,
+                "t_skin": 37.4,
                 "w": 0.6,
-                "disc": 5.4
+                "disc": 4.7
             }
         },
         {
@@ -146,13 +146,13 @@
                 "w_max": 0.2
             },
             "outputs": {
-                "t_core": 39.0,
-                "e_skin": 49.3,
-                "m_rsw": 59.3,
-                "pmv_set": 2.5,
-                "t_skin": 38.6,
+                "t_core": 39.2,
+                "e_skin": 39.0,
+                "m_rsw": 42.7,
+                "pmv_set": 2.7,
+                "t_skin": 38.9,
                 "w": 0.2,
-                "disc": 6.0
+                "disc": 4.7
             }
         },
         {
@@ -165,14 +165,14 @@
                 "clo": 0.2
             },
             "outputs": {
-                "e_rsw": 244.9,
-                "t_core": 38.0,
-                "e_skin": 253.1,
-                "m_rsw": 359.2,
-                "pmv_set": 2.2,
-                "t_skin": 36.5,
+                "e_rsw": 223.9,
+                "t_core": 38.1,
+                "e_skin": 234.5,
+                "m_rsw": 329.2,
+                "pmv_set": 2.5,
+                "t_skin": 36.8,
                 "w": 0.6,
-                "disc": 5.3
+                "disc": 4.7
             }
         },
         {
@@ -209,13 +209,13 @@
                 "max_skin_blood_flow": 60
             },
             "outputs": {
-                "t_core": 38.2,
-                "e_skin": 245.3,
-                "m_rsw": 348.0,
-                "pmv_set": 2.4,
-                "t_skin": 36.1,
+                "t_core": 38.4,
+                "e_skin": 228.5,
+                "m_rsw": 320.8,
+                "pmv_set": 2.6,
+                "t_skin": 36.4,
                 "w": 0.59,
-                "disc": 5.3
+                "disc": 4.7
             }
         }
     ]
