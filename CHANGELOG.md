@@ -11,6 +11,13 @@ files follow.
 
 ## [Unreleased]
 
+### Changed
+- `ts_adaptive_ashrae`, `ts_adaptive_en`: the acceptability outputs are now `null`
+  (NaN) where `tmp_cmf` is `null`, i.e. where the running mean temperature is
+  outside the model's applicability limits. They used to be `false`, which read as
+  "not acceptable" rather than "not applicable" (pythermalcomfort#484). Four cases
+  change. Implementations that still return `false` outside the limits fail them.
+
 ## [1.0.1] - 2026-10-23
 
 ### Fixed

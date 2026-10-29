@@ -160,11 +160,11 @@
                     23.4
                 ],
                 "acceptability_80": [
-                    false,
+                    null,
                     false
                 ],
                 "acceptability_90": [
-                    false,
+                    null,
                     false
                 ]
             }
@@ -207,11 +207,11 @@
                     79.7
                 ],
                 "acceptability_80": [
-                    false,
+                    null,
                     true
                 ],
                 "acceptability_90": [
-                    false,
+                    null,
                     true
                 ]
             }
