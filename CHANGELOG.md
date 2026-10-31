@@ -11,6 +11,8 @@ files follow.
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-31
+
 ### Changed
 - `ts_adaptive_ashrae`, `ts_adaptive_en`: the acceptability outputs are now `null`
   (NaN) where `tmp_cmf` is `null`, i.e. where the running mean temperature is
