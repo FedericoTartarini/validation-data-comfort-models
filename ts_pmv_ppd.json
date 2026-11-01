@@ -733,6 +733,186 @@
                 "pmv": 4.48,
                 "ppd": 100.0
             }
+        },
+        {
+            "inputs": {
+                "tdb": 28,
+                "tr": 28,
+                "rh": 50,
+                "vr": 0.1,
+                "met": 0.79,
+                "clo": 1.0,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": null,
+                "ppd": null
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 28,
+                "tr": 28,
+                "rh": 50,
+                "vr": 0.1,
+                "met": 0.8,
+                "clo": 1.0,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": 0.66,
+                "ppd": 14.1
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 28,
+                "tr": 28,
+                "rh": 50,
+                "vr": 0.1,
+                "met": 0.81,
+                "clo": 1.0,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": 0.7,
+                "ppd": 15.4
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "rh": 85.23,
+                "vr": 0.1,
+                "met": 1.2,
+                "clo": 0.5,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": 0.33,
+                "ppd": 7.3
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "rh": 85.244688,
+                "vr": 0.1,
+                "met": 1.2,
+                "clo": 0.5,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": 0.33,
+                "ppd": 7.3
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "rh": 85.25,
+                "vr": 0.1,
+                "met": 1.2,
+                "clo": 0.5,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": null,
+                "ppd": null
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 28,
+                "tr": 28,
+                "rh": 71.42,
+                "vr": 0.1,
+                "met": 1.2,
+                "clo": 0.5,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": 1.17,
+                "ppd": 33.8
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 28,
+                "tr": 28,
+                "rh": 71.429553,
+                "vr": 0.1,
+                "met": 1.2,
+                "clo": 0.5,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": 1.17,
+                "ppd": 33.8
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 28,
+                "tr": 28,
+                "rh": 71.44,
+                "vr": 0.1,
+                "met": 1.2,
+                "clo": 0.5,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": null,
+                "ppd": null
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 30,
+                "tr": 30,
+                "rh": 63.62,
+                "vr": 0.1,
+                "met": 1.2,
+                "clo": 0.5,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": 1.74,
+                "ppd": 63.6
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 30,
+                "tr": 30,
+                "rh": 63.628386,
+                "vr": 0.1,
+                "met": 1.2,
+                "clo": 0.5,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": 1.74,
+                "ppd": 63.6
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 30,
+                "tr": 30,
+                "rh": 63.64,
+                "vr": 0.1,
+                "met": 1.2,
+                "clo": 0.5,
+                "standard": "ISO"
+            },
+            "outputs": {
+                "pmv": null,
+                "ppd": null
+            }
         }
     ]
 }

@@ -215,6 +215,84 @@
                     true
                 ]
             }
+        },
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "t_running_mean": 9.99,
+                "v": 0.1
+            },
+            "outputs": {
+                "tmp_cmf": null,
+                "acceptability_80": false,
+                "acceptability_90": false
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "t_running_mean": 10.0,
+                "v": 0.1
+            },
+            "outputs": {
+                "tmp_cmf": 20.9,
+                "acceptability_80": false,
+                "acceptability_90": false
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "t_running_mean": 10.01,
+                "v": 0.1
+            },
+            "outputs": {
+                "tmp_cmf": 20.9,
+                "acceptability_80": false,
+                "acceptability_90": false
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "t_running_mean": 33.49,
+                "v": 0.1
+            },
+            "outputs": {
+                "tmp_cmf": 28.2,
+                "acceptability_80": true,
+                "acceptability_90": false
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "t_running_mean": 33.5,
+                "v": 0.1
+            },
+            "outputs": {
+                "tmp_cmf": 28.2,
+                "acceptability_80": true,
+                "acceptability_90": false
+            }
+        },
+        {
+            "inputs": {
+                "tdb": 25,
+                "tr": 25,
+                "t_running_mean": 33.51,
+                "v": 0.1
+            },
+            "outputs": {
+                "tmp_cmf": null,
+                "acceptability_80": false,
+                "acceptability_90": false
+            }
         }
     ]
 }
